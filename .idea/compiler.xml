@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="csv-reporting-api-impl" />
+        <module name="EODTradingStrategy" />
+        <module name="ib-broker-api-impl" />
+        <module name="ib-historical-data-api-impl" />
+        <module name="ib-market-data-api-impl" />
+        <module name="ib-real-time-bar-api-impl" />
+        <module name="interactive-brokers-api" />
+        <module name="interactive-brokers-client" />
+        <module name="interactive-brokers-integration-tests" />
+        <module name="InteractiveBrokersExamples" />
+        <module name="IntradayTradingStrategy" />
+        <module name="sumzero-broker-api" />
+        <module name="sumzero-commons-api" />
+        <module name="sumzero-historical-data-api" />
+        <module name="sumzero-ib-common-api" />
+        <module name="sumzero-market-data-api" />
+        <module name="sumzero-real-time-bar-api" />
+        <module name="sumzero-reporting-api" />
+        <module name="sumzero-strategy-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bitmex-broker-api-impl" target="1.8" />
+      <module name="bitmex-common-api" target="1.8" />
+      <module name="bitmex-historical-data-api-impl" target="1.8" />
+      <module name="bitmex-market-data-api-impl" target="1.8" />
+      <module name="broker-api" target="1.8" />
+      <module name="collective2-broker-api-impl" target="1.8" />
+      <module name="csv-reporting-api-impl" target="1.8" />
+      <module name="EODTradingStrategy" target="1.8" />
+      <module name="examples" target="1.8" />
+      <module name="historical-data-api" target="1.8" />
+      <module name="ib-broker-api-impl" target="1.8" />
+      <module name="ib-historical-data-api-impl" target="1.8" />
+      <module name="ib-market-data-api-impl" target="1.8" />
+      <module name="ib-real-time-bar-api-impl" target="1.8" />
+      <module name="interactive-brokers-api" target="1.8" />
+      <module name="interactive-brokers-client" target="1.8" />
+      <module name="interactive-brokers-integration-tests" target="1.8" />
+      <module name="InteractiveBrokersExamples" target="1.8" />
+      <module name="IntradayTradingStrategy" target="1.8" />
+      <module name="market-data-api" target="1.8" />
+      <module name="real-time-bar-api" target="1.8" />
+      <module name="reporting-api" target="1.8" />
+      <module name="strategy-api" target="1.8" />
+      <module name="sumzero-api" target="1.8" />
+      <module name="sumzero-broker-api" target="1.8" />
+      <module name="sumzero-commons" target="1.8" />
+      <module name="sumzero-commons-api" target="1.8" />
+      <module name="sumzero-historical-data-api" target="1.8" />
+      <module name="sumzero-ib-common-api" target="1.8" />
+      <module name="sumzero-implementations" target="1.8" />
+      <module name="sumzero-market-data-api" target="1.8" />
+      <module name="sumzero-real-time-bar-api" target="1.8" />
+      <module name="sumzero-reporting-api" target="1.8" />
+      <module name="sumzero-strategy-api" target="1.8" />
+      <module name="SumZeroParent" target="1.8" />
+      <module name="SumZeroTrading" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

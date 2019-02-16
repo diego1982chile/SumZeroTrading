@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/examples/EODTradingStrategy/EODTradingStrategy.iml" filepath="$PROJECT_DIR$/examples/EODTradingStrategy/EODTradingStrategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/InteractiveBrokersExamples.iml" filepath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/InteractiveBrokersExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/IntradayTradingExample/IntradayTradingStrategy.iml" filepath="$PROJECT_DIR$/examples/IntradayTradingExample/IntradayTradingStrategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SumZeroParent/SumZeroParent.iml" filepath="$PROJECT_DIR$/SumZeroParent/SumZeroParent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SumZeroTrading.iml" filepath="$PROJECT_DIR$/SumZeroTrading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/implementations/broker-api/broker-api.iml" filepath="$PROJECT_DIR$/implementations/broker-api/broker-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/csv-reporting-api-impl.iml" filepath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/csv-reporting-api-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/examples.iml" filepath="$PROJECT_DIR$/examples/examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/implementations/historical-data-api/historical-data-api.iml" filepath="$PROJECT_DIR$/implementations/historical-data-api/historical-data-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/implementations/broker-api/ib-broker-api-impl/ib-broker-api-impl.iml" filepath="$PROJECT_DIR$/implementations/broker-api/ib-broker-api-impl/ib-broker-api-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/ib-historical-data-api-impl.iml" filepath="$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/ib-historical-data-api-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/ib-market-data-api-impl.iml" filepath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/ib-market-data-api-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/ib-real-time-bar-api-impl.iml" filepath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/ib-real-time-bar-api-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/interactive-brokers-api/interactive-brokers-api.iml" filepath="$PROJECT_DIR$/commons/interactive-brokers-api/interactive-brokers-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/interactive-brokers-client/interactive-brokers-client.iml" filepath="$PROJECT_DIR$/commons/interactive-brokers-client/interactive-brokers-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/interactive-brokers-integration-tests/interactive-brokers-integration-tests.iml" filepath="$PROJECT_DIR$/commons/interactive-brokers-integration-tests/interactive-brokers-integration-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/implementations/market-data-api/market-data-api.iml" filepath="$PROJECT_DIR$/implementations/market-data-api/market-data-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/implementations/real-time-bar-api/real-time-bar-api.iml" filepath="$PROJECT_DIR$/implementations/real-time-bar-api/real-time-bar-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/implementations/reporting-api/reporting-api.iml" filepath="$PROJECT_DIR$/implementations/reporting-api/reporting-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/implementations/strategy-api/strategy-api.iml" filepath="$PROJECT_DIR$/implementations/strategy-api/strategy-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sumzero-api/sumzero-api.iml" filepath="$PROJECT_DIR$/sumzero-api/sumzero-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sumzero-api/sumzero-broker-api/sumzero-broker-api.iml" filepath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/sumzero-broker-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/sumzero-commons.iml" filepath="$PROJECT_DIR$/commons/sumzero-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/sumzero-commons-api/sumzero-commons-api.iml" filepath="$PROJECT_DIR$/commons/sumzero-commons-api/sumzero-commons-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sumzero-api/sumzero-historical-data-api/sumzero-historical-data-api.iml" filepath="$PROJECT_DIR$/sumzero-api/sumzero-historical-data-api/sumzero-historical-data-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/sumzero-ib-common-api/sumzero-ib-common-api.iml" filepath="$PROJECT_DIR$/commons/sumzero-ib-common-api/sumzero-ib-common-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/implementations/sumzero-implementations.iml" filepath="$PROJECT_DIR$/implementations/sumzero-implementations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/sumzero-market-data-api.iml" filepath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/sumzero-market-data-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sumzero-api/sumzero-real-time-bar-api/sumzero-real-time-bar-api.iml" filepath="$PROJECT_DIR$/sumzero-api/sumzero-real-time-bar-api/sumzero-real-time-bar-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sumzero-api/sumzero-reporting-api/sumzero-reporting-api.iml" filepath="$PROJECT_DIR$/sumzero-api/sumzero-reporting-api/sumzero-reporting-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sumzero-api/sumzero-strategy-api/sumzero-strategy-api.iml" filepath="$PROJECT_DIR$/sumzero-api/sumzero-strategy-api/sumzero-strategy-api.iml" />
+    </modules>
+  </component>
+</project>
