@@ -36,7 +36,7 @@ public class TradingExample {
     protected Logger logger = LoggerFactory.getLogger(TradingExample.class);
 
     static final int IB_PORT = 4002;
-    static final int TWS = 7497;
+    static final int TWS_PORT = 7497;
 
     public void start() {
         //Connect to the Interactive Brokers TWS Client
@@ -100,6 +100,6 @@ public class TradingExample {
     public static void main(String[] args) throws Exception {
         TradingExample example = new TradingExample();
         example.start();
-        example.placeEquityOrder();
+        example.placeCurrencyOrder();
     }
 }
