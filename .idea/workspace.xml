@@ -1,467 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36f33ab4-98cf-46b8-a260-6ea5d7a8025e" name="Default" comment="Pruebas paper trading">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-integration-tests/ib-order-management/orders.ser" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/resources/com/sumzerotrading/ib/ui/IB-Icon-sm.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/ib-order-management/client-10/orders.ser" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/ib-order-management/orders.ser" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/ib-order-management/client-1/orders.ser" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/ib-order-management/client-10/orders.ser" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/ib-order-management/orders.ser" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__apache_log4j_log4j_1_2_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tictactec_ta_lib_0_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_dep_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jmock_jmock_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jmock_jmock_junit4_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_9_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/License.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SumZeroParent/SumZeroParent.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SumZeroParent/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SumZeroTrading.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/bitmex-common-api/bitmex-common-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/bitmex-common-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/bitmex-common-api/src/main/java/com/sumzerotrading/bitmex/common/api/BitmexClientRegistry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/bitmex-common-api/src/main/java/com/sumzerotrading/bitmex/common/api/BitmexPropKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/bitmex-common-api/src/main/java/com/sumzerotrading/bitmex/common/api/BitmexProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/bitmex-common-api/src/test/java/com/sumzerotrading/bitmex/common/api/BitmexClientRegistryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/bitmex-common-api/src/test/java/com/sumzerotrading/bitmex/common/api/BitmexPropertiesTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/bitmex-common-api/src/test/resources/testprops.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/interactive-brokers-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/AnyWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/AnyWrapperMsgGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/ClientSocketInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/ComboLeg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/Contract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/ContractDetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/EClientErrors.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/EClientSocket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/EReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/EWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/EWrapperMsgGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/Execution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/ExecutionFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/OrderState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/ScannerSubscription.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/TickType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/java/com/ib/Util.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/AnyWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/AnyWrapperMsgGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/Builder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/ComboLeg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/CommissionReport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/Contract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/ContractDetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/EClientErrors.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/EClientSocket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/EReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/EWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/EWrapperMsgGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/Execution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/ExecutionFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/IApiEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/MarketDataType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/OrderComboLeg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/OrderState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/ScannerSubscription.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/TagValue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/TickType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/UnderComp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/Util.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/contracts/ComboContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/contracts/FutContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/contracts/OptContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/contracts/StkContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/AccountSummaryTag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/AdvisorUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/Alias.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/ApiConnection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/ApiController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/Bar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/ConcurrentHashSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/DeltaNeutralContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/Formats.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/Group.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/Instrument.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/LocationCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/MarketValueTag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/NewComboLeg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/NewContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/NewContractDetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/NewOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/NewOrderState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/NewTickType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/OrderStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/OrderType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/PairPanel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/Position.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/Profile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/ScanCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/TradeId.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/controller/Types.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-client/interactive-brokers-client.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-client/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-client/src/main/java/com/sumzerotrading/interactive/brokers/client/InteractiveBrokersClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-client/src/main/java/com/sumzerotrading/interactive/brokers/client/InteractiveBrokersClientInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-client/src/test/java/com/sumzerotrading/interactive/brokers/client/InteractiveBrokersClientTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-integration-tests/interactive-brokers-integration-tests.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-integration-tests/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-integration-tests/src/main/java/com/sumzerotrading/broker/ib/MainClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-integration-tests/src/main/resources/ErrorConditions.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-integration-tests/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/interactive-brokers-integration-tests/src/test/java/com/sumzerotrading/broker/ib/InteractiveBrokersBrokerIT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/BarData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/BloombergPriceConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/CFDTicker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/ComboTicker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/Commodity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/CurrencyTicker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/Exchange.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/FuturesTicker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/GenericTicker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/IndexTicker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/InstrumentType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/MarketData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/OptionTicker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/StockTicker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/SumZeroException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/TickType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/data/Ticker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/time/ITimeProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/time/TimeProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/time/TimeUpdatedListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/util/FuturesUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/util/PropertyUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/util/QuoteUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/main/java/com/sumzerotrading/util/Util.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/test/java/com/sumzerotrading/data/BarTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/test/java/com/sumzerotrading/data/BloombergPriceConverterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/test/java/com/sumzerotrading/data/CFDTickerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/test/java/com/sumzerotrading/data/CommodityTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/test/java/com/sumzerotrading/data/ExchangeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/test/java/com/sumzerotrading/data/FuturesTickerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/test/java/com/sumzerotrading/data/GenericTickerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/test/java/com/sumzerotrading/data/MarketDataTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/test/java/com/sumzerotrading/data/SerializationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/test/java/com/sumzerotrading/util/FuturesUtilTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/test/java/com/sumzerotrading/util/PropertyUtilTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/test/java/com/sumzerotrading/util/QuoteUtilTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/src/test/java/com/sumzerotrading/util/UtilTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/sumzero-commons-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-commons.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/BaseIBConnectionDelegate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/CFDContractBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/ComboContractBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/ConnectionEventListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/ContractBuilderFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/ContractWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/CurrencyContractBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/ErrorListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/Execution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/FuturesContractBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/IBConnection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/IBConnectionInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/IBConnectionInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/IBConnectionRegistry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/IBConnectionUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/IBDataQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/IBSocket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/IContractBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/IbUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/IndexContractBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/MarketDepthListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/OptionContractBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/OrderStatusListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/StockContractBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/TickListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/TickerBuilderFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/TimeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/historical/ContractDetailsListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/historical/HistoricalData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/historical/HistoricalDataListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/symbol/CBOTLocalSymbolBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/symbol/DefaultLocalSymbolBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/symbol/HKFELocalSymbolBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/symbol/ILocalSymbolBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/symbol/LocalSymbolBuilderFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/symbol/OSELocalSymbolBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/resources/com/sumzerotrading/ib/ui/Bundle.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/test/java/com/sumzerotrading/ib/CFDContractBuilderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/test/java/com/sumzerotrading/ib/ContractBuilderFactoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/test/java/com/sumzerotrading/ib/CurrencyContractBuilderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/test/java/com/sumzerotrading/ib/FuturesContractBuilderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/test/java/com/sumzerotrading/ib/IBConnectionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/test/java/com/sumzerotrading/ib/IbConnectionUtilTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/test/java/com/sumzerotrading/ib/IbUtilsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/test/java/com/sumzerotrading/ib/IndexContractBuilderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/test/java/com/sumzerotrading/ib/StockContractBuilderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/test/java/com/sumzerotrading/ib/symbol/CBOTLocalSymbolBuilderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/test/java/com/sumzerotrading/ib/symbol/DefaultLocalSymbolBuilderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/test/java/com/sumzerotrading/ib/symbol/HKFELocalSymbolBuilderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/test/java/com/sumzerotrading/ib/symbol/LocalSymbolBuilderFactoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/src/test/java/com/sumzerotrading/ib/symbol/OSELocalSymbolBuilderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/sumzero-ib-common-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/EODTradingStrategy.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/nbactions-Home.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/src/main/java/com/sumzerotrading/eod/trading/strategy/EODSystemProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/src/main/java/com/sumzerotrading/eod/trading/strategy/EODTradingStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/src/main/java/com/sumzerotrading/eod/trading/strategy/IReportGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/src/main/java/com/sumzerotrading/eod/trading/strategy/IRoundTrip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/src/main/java/com/sumzerotrading/eod/trading/strategy/ReportGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/src/main/java/com/sumzerotrading/eod/trading/strategy/RoundTrip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/src/main/java/com/sumzerotrading/eod/trading/strategy/TradeReferenceLine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/src/main/resources/TODO.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/src/main/resources/eod-example.prop" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/src/test/java/com/sumzerotrading/eod/trading/strategy/EODSystemPropertiesTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/src/test/java/com/sumzerotrading/eod/trading/strategy/EODTradingStrategyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/src/test/java/com/sumzerotrading/eod/trading/strategy/ReportGeneratorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/src/test/java/com/sumzerotrading/eod/trading/strategy/RoundTripTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/src/test/java/com/sumzerotrading/eod/trading/strategy/TradeReferenceLineTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/src/test/resources/eod.test.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/InteractiveBrokersExamples.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/nbactions-Home.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/historical/data/HistoricalDataExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataFuturesExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataOptionsExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataStocksExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/trading/TradingExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/trading/TradingExampleWithOrderStatusListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/IntradayTradingStrategy.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/dependency-reduced-pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/nbactions-Home.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/src/main/java/com/sumzerotrading/intraday/trading/strategy/IReportGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/src/main/java/com/sumzerotrading/intraday/trading/strategy/IntradaySystemProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/src/main/java/com/sumzerotrading/intraday/trading/strategy/IntradayTradingStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/src/main/java/com/sumzerotrading/intraday/trading/strategy/ReportGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/src/main/java/com/sumzerotrading/intraday/trading/strategy/RoundTrip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/src/main/java/com/sumzerotrading/intraday/trading/strategy/TradeReferenceLine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/src/main/resources/TODO.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/src/main/resources/intraday-example.prop" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/src/test/java/com/sumzerotrading/intraday/trading/strategy/IntradaySystemPropertiesTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/src/test/java/com/sumzerotrading/intraday/trading/strategy/IntradayTradingStrategyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/src/test/java/com/sumzerotrading/intraday/trading/strategy/ReportGeneratorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/src/test/java/com/sumzerotrading/intraday/trading/strategy/RoundTripTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/src/test/java/com/sumzerotrading/intraday/trading/strategy/TradeReferenceLineTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/src/test/resources/intraday.test.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/examples.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/bitmex-broker-api-impl/bitmex-broker-api-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/bitmex-broker-api-impl/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/bitmex-broker-api-impl/src/main/java/com/sumzerotrading/broker/bitmex/BitmexBroker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/bitmex-broker-api-impl/src/main/java/com/sumzerotrading/broker/bitmex/BitmexOrderEventProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/bitmex-broker-api-impl/src/main/java/com/sumzerotrading/broker/bitmex/OrderManagmentUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/bitmex-broker-api-impl/src/test/java/com/sumzerotrading/broker/ib/IBBrokerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/bitmex-broker-api-impl/src/test/java/com/sumzerotrading/broker/ib/IBOrderEventProcessorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/bitmex-broker-api-impl/src/test/java/com/sumzerotrading/broker/ib/InteractiveBrokersBrokerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/bitmex-broker-api-impl/src/test/java/com/sumzerotrading/broker/ib/OrderManagementUtilTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/broker-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/collective2-broker-api-impl/collective2-broker-api-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/collective2-broker-api-impl/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/collective2-broker-api-impl/src/main/java/com/sumzerotrading/broker/c2/C2Util.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/collective2-broker-api-impl/src/main/java/com/sumzerotrading/broker/c2/Collective2Broker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/collective2-broker-api-impl/src/main/java/com/sumzerotrading/broker/c2/TradeSignalBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/collective2-broker-api-impl/src/test/java/com/sumzerotrading/broker/c2/C2UtilTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/collective2-broker-api-impl/src/test/java/com/sumzerotrading/broker/c2/Collective2BrokerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/collective2-broker-api-impl/src/test/java/com/sumzerotrading/broker/c2/TradeSignalBuilderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/ib-broker-api-impl/ib-broker-api-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/ib-broker-api-impl/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/ib-broker-api-impl/src/main/java/com/sumzerotrading/broker/ib/IBOrderEventProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/ib-broker-api-impl/src/main/java/com/sumzerotrading/broker/ib/InteractiveBrokersBroker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/ib-broker-api-impl/src/main/java/com/sumzerotrading/broker/ib/OrderManagmentUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/ib-broker-api-impl/src/test/java/com/sumzerotrading/broker/ib/IBBrokerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/ib-broker-api-impl/src/test/java/com/sumzerotrading/broker/ib/IBOrderEventProcessorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/ib-broker-api-impl/src/test/java/com/sumzerotrading/broker/ib/InteractiveBrokersBrokerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/ib-broker-api-impl/src/test/java/com/sumzerotrading/broker/ib/OrderManagementUtilTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/broker-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/historical-data-api/bitmex-historical-data-api-imple/bitmex-historical-data-api-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/historical-data-api/bitmex-historical-data-api-imple/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/historical-data-api/bitmex-historical-data-api-imple/src/main/java/com/sumzerotrading/bitmex/historical/BitmexHistoricalDataProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/historical-data-api/bitmex-historical-data-api-imple/src/main/java/com/sumzerotrading/bitmex/historical/HistoricalDataUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/historical-data-api/bitmex-historical-data-api-imple/src/main/java/com/sumzerotrading/bitmex/historical/InvalidBarSizeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/historical-data-api/bitmex-historical-data-api-imple/src/test/java/com/sumzerotrading/bitmex/historical/BitmexHistoricalDataProviderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/historical-data-api/bitmex-historical-data-api-imple/src/test/java/com/sumzerotrading/bitmex/historical/HistoricalDataUtilsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/historical-data-api/historical-data-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/ib-historical-data-api-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/src/main/java/com/sumzerotrading/ib/historical/HistoricalDataUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/src/main/java/com/sumzerotrading/ib/historical/IBHistoricalDataEventProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/src/main/java/com/sumzerotrading/ib/historical/IBHistoricalDataProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/src/main/java/com/sumzerotrading/ib/historical/InvalidBarSizeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/src/test/java/com/sumzerotrading/historical/HistoricalDataUtilsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/historical-data-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/bitmex-market-data-api-impl/bitmex-market-data-api-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/bitmex-market-data-api-impl/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/bitmex-market-data-api-impl/src/main/java/com/sumzerotrading/bitmex/market/data/BitmexLevel1QuoteEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/bitmex-market-data-api-impl/src/test/java/com/sumzerotrading/bitmex/market/data/BitmexLevel1QuoteEngineTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/ib-market-data-api-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/src/main/java/com/sumzerotrading/marketdata/ib/AbstractIBQuoteEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/src/main/java/com/sumzerotrading/marketdata/ib/IBLevel1QuoteProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/src/main/java/com/sumzerotrading/marketdata/ib/IBLevel2QuoteProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/src/main/java/com/sumzerotrading/marketdata/ib/IBQuoteEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/src/main/java/com/sumzerotrading/marketdata/ib/IBQuoteErrorProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/src/main/java/com/sumzerotrading/marketdata/ib/IBQuoteProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/src/main/java/com/sumzerotrading/marketdata/ib/Level1QuoteData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/src/main/java/com/sumzerotrading/marketdata/ib/Level2QuoteData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/src/test/java/com/sumzerotrading/marketdata/ib/IBLevel1QuoteProcessorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/src/test/java/com/sumzerotrading/marketdata/ib/IBLevel2QuoteProcessorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/src/test/java/com/sumzerotrading/marketdata/ib/IBQuoteEngineTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/src/test/java/com/sumzerotrading/marketdata/ib/IBQuoteErrorProcessorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/src/test/java/com/sumzerotrading/marketdata/ib/IBQuoteProcessorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/market-data-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/market-data-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/ib-real-time-bar-api-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/BarBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/BarBuilderJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/BarListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/IBRealTimeBarEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/IBarBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/util/RealtimeBarUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/test/java/com/sumzerotrading/realtime/bar/ib/BarBuilderJobTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/test/java/com/sumzerotrading/realtime/bar/ib/BarBuilderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/test/java/com/sumzerotrading/realtime/bar/ib/IBRealTimeBarEngineTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/test/java/com/sumzerotrading/realtime/bar/ib/util/RealtimeBarUtilTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/real-time-bar-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/csv-reporting-api-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/src/main/java/com/sumzerotrading/reporting/csv/IRoundTripBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/src/main/java/com/sumzerotrading/reporting/csv/PairTradeRoundTrip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/src/main/java/com/sumzerotrading/reporting/csv/PairTradeRoundTripBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/src/main/java/com/sumzerotrading/reporting/csv/ReportGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/src/main/java/com/sumzerotrading/reporting/csv/TradeRoundTrip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/src/main/java/com/sumzerotrading/reporting/csv/TradeRoundTripBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/src/test/java/com/sumzerotrading/reporting/csv/PairTradeRoundTripBuilderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/src/test/java/com/sumzerotrading/reporting/csv/PairTradeRoundTripTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/src/test/java/com/sumzerotrading/reporting/csv/ReportGeneratorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/src/test/java/com/sumzerotrading/reporting/csv/TradeRoundTripBuilderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/src/test/java/com/sumzerotrading/reporting/csv/TradeRoundTripTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/reporting-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/reporting-api/reporting-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/strategy-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/strategy-api/strategy-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/implementations/sumzero-implementations.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/release.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/src/main/java/com/sumzerotrading/broker/AbstractBroker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/src/main/java/com/sumzerotrading/broker/BrokerError.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/src/main/java/com/sumzerotrading/broker/BrokerErrorListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/src/main/java/com/sumzerotrading/broker/BrokerListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/src/main/java/com/sumzerotrading/broker/IBroker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/src/main/java/com/sumzerotrading/broker/IExchange.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/src/main/java/com/sumzerotrading/broker/Position.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/src/main/java/com/sumzerotrading/broker/Transaction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/src/main/java/com/sumzerotrading/broker/order/OrderEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/src/main/java/com/sumzerotrading/broker/order/OrderEventFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/src/main/java/com/sumzerotrading/broker/order/OrderEventListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/src/main/java/com/sumzerotrading/broker/order/OrderStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/src/main/java/com/sumzerotrading/broker/order/TradeDirection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/src/main/java/com/sumzerotrading/broker/order/TradeOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/src/test/java/com/sumzerotrading/broker/BrokerSerializationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/src/test/java/com/sumzerotrading/broker/order/OrderSerializationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/sumzero-broker-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-historical-data-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-historical-data-api/src/main/java/com/sumzerotrading/historicaldata/IHistoricalDataProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-historical-data-api/sumzero-historical-data-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/AbstractQuote.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/DataParseException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/ErrorListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/ILevel1Quote.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/ILevel2Quote.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/IMarketDepthBook.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/IQuote.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/IQuoteEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/Level1Quote.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/Level1QuoteListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/Level2Quote.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/Level2QuoteListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/MarketDepthBook.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/MarketDepthLevel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/QuoteEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/QuoteError.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/QuoteErrorListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/main/java/com/sumzerotrading/marketdata/QuoteType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/test/java/com/sumzerotrading/marketdata/Level1QuoteTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/test/java/com/sumzerotrading/marketdata/MarketDepthBookTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/test/java/com/sumzerotrading/marketdata/MarketDepthLevelTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/src/test/java/com/sumzerotrading/marketdata/QuoteEngineTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/sumzero-market-data-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-real-time-bar-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-real-time-bar-api/src/main/java/com/sumzerotrading/realtime/bar/AbstractRealtimeBarEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-real-time-bar-api/src/main/java/com/sumzerotrading/realtime/bar/IRealtimeBarEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-real-time-bar-api/src/main/java/com/sumzerotrading/realtime/bar/RealtimeBarListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-real-time-bar-api/src/main/java/com/sumzerotrading/realtime/bar/RealtimeBarRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-real-time-bar-api/sumzero-real-time-bar-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-reporting-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-reporting-api/src/main/java/com/sumzerotrading/reporting/IReportGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-reporting-api/src/main/java/com/sumzerotrading/reporting/IRoundTrip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-reporting-api/src/main/java/com/sumzerotrading/reporting/TradeReferenceLine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-reporting-api/src/main/java/com/sumzerotrading/reporting/TradeUIDProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-reporting-api/src/test/java/com/sumzerotrading/reporting/TradeReferenceLineTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-reporting-api/sumzero-reporting-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-strategy-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-strategy-api/src/main/java/com/sumzerotrading/strategy/AbstractTradingStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-strategy-api/src/main/java/com/sumzerotrading/strategy/DailyTradingStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-strategy-api/src/main/java/com/sumzerotrading/strategy/ITradingStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-strategy-api/sumzero-strategy-api.iml" />
-    </list>
+    <list default="true" id="36f33ab4-98cf-46b8-a260-6ea5d7a8025e" name="Default" comment="Pruebas paper trading" />
     <ignored path="SumZeroTrading.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/implementations/market-data-api/bitmex-market-data-api-impl/target/" />
@@ -521,12 +61,9 @@
       <file leaf-file-name="MarketDataCurrencyExample.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="94" column="63" selection-start-line="94" selection-start-column="63" selection-end-line="94" selection-end-column="63" />
-              <folding>
-                <element signature="e#4741#4742#0" expanded="true" />
-                <element signature="e#4796#4797#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="508">
+              <caret line="102" column="57" selection-start-line="102" selection-start-column="57" selection-end-line="102" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -534,7 +71,7 @@
       <file leaf-file-name="IBRealTimeBarEngine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/IBRealTimeBarEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
+            <state relative-caret-position="840">
               <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding />
             </state>
@@ -544,7 +81,7 @@
       <file leaf-file-name="BarBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/BarBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
+            <state relative-caret-position="840">
               <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
@@ -574,7 +111,7 @@
       <file leaf-file-name="JobRunShell.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.1.2/quartz-2.1.2.jar!/org/quartz/core/JobRunShell.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="660">
               <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
               <folding />
             </state>
@@ -584,7 +121,7 @@
       <file leaf-file-name="IBHistoricalDataProvider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/src/main/java/com/sumzerotrading/ib/historical/IBHistoricalDataProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="1455">
               <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
               <folding />
             </state>
@@ -594,7 +131,7 @@
       <file leaf-file-name="IBConnection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/IBConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
+            <state relative-caret-position="3450">
               <caret line="277" column="0" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
               <folding />
             </state>
@@ -604,7 +141,7 @@
       <file leaf-file-name="EReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/EReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
+            <state relative-caret-position="15015">
               <caret line="1006" column="0" selection-start-line="1006" selection-start-column="0" selection-end-line="1006" selection-end-column="0" />
               <folding />
             </state>
@@ -614,7 +151,7 @@
       <file leaf-file-name="InteractiveBrokersClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commons/interactive-brokers-client/src/main/java/com/sumzerotrading/interactive/brokers/client/InteractiveBrokersClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="1875">
               <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
               <folding />
             </state>
@@ -931,9 +468,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1505,6 +1042,7 @@
       <workItem from="1550271519364" duration="11640000" />
       <workItem from="1551485045833" duration="33183000" />
       <workItem from="1551715465185" duration="12951000" />
+      <workItem from="1551728783164" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="Pruebas paper trading">
       <created>1551580468605</created>
@@ -1522,7 +1060,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60187000" />
+    <option name="totallyTimeSpent" value="60213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1922" height="911" extended-state="6" />
@@ -1530,31 +1068,31 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17604166" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38039216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.290625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28104576" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42222223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42222223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38039216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28104576" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1876,7 +1414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1986,7 +1523,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.1.2/quartz-2.1.2.jar!/org/quartz/core/JobRunShell.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="660">
           <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
           <folding />
         </state>
@@ -2002,7 +1539,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/interactive-brokers-client/src/main/java/com/sumzerotrading/interactive/brokers/client/InteractiveBrokersClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="1875">
           <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
           <folding />
         </state>
@@ -2018,7 +1555,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/IBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="3450">
           <caret line="277" column="0" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
           <folding />
         </state>
@@ -2026,7 +1563,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/EReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="15015">
           <caret line="1006" column="0" selection-start-line="1006" selection-start-column="0" selection-end-line="1006" selection-end-column="0" />
           <folding />
         </state>
@@ -2034,7 +1571,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/BarBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="840">
           <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
@@ -2042,7 +1579,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/src/main/java/com/sumzerotrading/ib/historical/IBHistoricalDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="1455">
           <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
           <folding />
         </state>
@@ -2050,7 +1587,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/IBRealTimeBarEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
+        <state relative-caret-position="840">
           <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
@@ -2058,12 +1595,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="94" column="63" selection-start-line="94" selection-start-column="63" selection-end-line="94" selection-end-column="63" />
-          <folding>
-            <element signature="e#4741#4742#0" expanded="true" />
-            <element signature="e#4796#4797#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="508">
+          <caret line="102" column="57" selection-start-line="102" selection-start-column="57" selection-end-line="102" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
