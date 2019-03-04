@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/SumZeroParent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/bitmex-common-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/bitmex-common-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/interactive-brokers-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/interactive-brokers-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/interactive-brokers-integration-tests" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/sumzero-commons-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons/sumzero-ib-common-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/examples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/examples/EODTradingStrategy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/examples/IntradayTradingExample" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/implementations" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/implementations/broker-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/implementations/broker-api/bitmex-broker-api-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/implementations/broker-api/collective2-broker-api-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/implementations/broker-api/ib-broker-api-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/implementations/historical-data-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/implementations/historical-data-api/bitmex-historical-data-api-imple" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/implementations/market-data-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/implementations/market-data-api/bitmex-market-data-api-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/implementations/real-time-bar-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/implementations/reporting-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/implementations/strategy-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sumzero-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sumzero-api/sumzero-broker-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sumzero-api/sumzero-historical-data-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sumzero-api/sumzero-market-data-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sumzero-api/sumzero-real-time-bar-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sumzero-api/sumzero-reporting-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sumzero-api/sumzero-strategy-api" charset="UTF-8" />
+  </component>
+</project>
