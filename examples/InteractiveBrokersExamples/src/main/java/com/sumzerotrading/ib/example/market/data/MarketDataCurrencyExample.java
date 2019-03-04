@@ -21,14 +21,26 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 package com.sumzerotrading.ib.example.market.data;
 
+import com.sumzerotrading.broker.IBroker;
+import com.sumzerotrading.broker.ib.InteractiveBrokersBroker;
 import com.sumzerotrading.data.*;
+import com.sumzerotrading.historicaldata.IHistoricalDataProvider;
+import com.sumzerotrading.ib.IBConnectionUtil;
+import com.sumzerotrading.ib.IBSocket;
+import com.sumzerotrading.ib.historical.IBHistoricalDataProvider;
 import com.sumzerotrading.interactive.brokers.client.InteractiveBrokersClient;
 import com.sumzerotrading.interactive.brokers.client.InteractiveBrokersClientInterface;
 import com.sumzerotrading.marketdata.ILevel1Quote;
+import com.sumzerotrading.marketdata.QuoteEngine;
 import com.sumzerotrading.marketdata.QuoteType;
+import com.sumzerotrading.marketdata.ib.IBQuoteEngine;
+import com.sumzerotrading.realtime.bar.IRealtimeBarEngine;
 import com.sumzerotrading.realtime.bar.RealtimeBarListener;
 import com.sumzerotrading.realtime.bar.RealtimeBarRequest;
+import com.sumzerotrading.realtime.bar.ib.IBRealTimeBarEngine;
 
+import java.math.BigDecimal;
+import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 
@@ -37,26 +49,60 @@ public class MarketDataCurrencyExample {
     static final int IB_PORT = 4002;
     static final int TWS_PORT = 7497;
     static int CLIENT_ID;
+
+    protected IBSocket ibSocket;
+    protected QuoteEngine quoteEngine;
+    protected IBroker broker;
+    IRealtimeBarEngine realtimeBarProvider;
+    protected IHistoricalDataProvider historicalDataProvider;
     
     public void start() {
         CLIENT_ID = ThreadLocalRandom.current().nextInt(1, 1000000 + 1);
 
         InteractiveBrokersClientInterface ibClient = InteractiveBrokersClient.getInstance("localhost", IB_PORT, CLIENT_ID);
-        ibClient.disconnect();
         ibClient.connect();
-        CurrencyTicker eurTicker = new CurrencyTicker();
-        eurTicker.setSymbol("EUR");
-        eurTicker.setCurrency("USD");
-        eurTicker.setExchange(Exchange.IDEALPRO);
-        //eurTicker.setPrimaryExchange(Exchange.INTERACTIVE_BROKERS_SMART);
-        //eurTicker.setContractMultiplier(null);
 
-        RealtimeBarRequest request = new RealtimeBarRequest(1, eurTicker, 1, BarData.LengthUnit.MINUTE);
+        CurrencyTicker ticker = new CurrencyTicker();
+        ticker.setExchange(Exchange.IDEALPRO);
+        ticker.setSymbol("EUR");
+        ticker.setCurrency("USD");
+        ticker.setContractMultiplier(BigDecimal.ONE);
+        int duration = 1;
+        BarData.LengthUnit durationUnit = BarData.LengthUnit.DAY;
+        int barSize = 1;
+        BarData.LengthUnit barSizeUnit = BarData.LengthUnit.MINUTE;
+        IHistoricalDataProvider.ShowProperty dataToRequest = IHistoricalDataProvider.ShowProperty.MIDPOINT;
 
-        ibClient.subscribeRealtimeBar(request, (int requestId, Ticker ticker, BarData bar) -> {
+        /*
+        List<BarData> historicalData = ibClient.requestHistoricalData(ticker, duration, durationUnit, barSize, barSizeUnit, dataToRequest);
+
+        System.out.println("Retrieved " + historicalData.size() + " bars");
+        historicalData.stream().forEach((bar) -> {
+            System.out.println("Retrieved Bar: " + bar);
+        });
+        */
+
+        IBConnectionUtil util = new IBConnectionUtil("localhost", IB_PORT, ibClient.getClientId());
+        ibSocket = util.getIBSocket();
+        quoteEngine = new IBQuoteEngine(ibSocket);
+        broker = new InteractiveBrokersBroker(ibSocket);
+
+        historicalDataProvider = new IBHistoricalDataProvider(ibSocket);
+        realtimeBarProvider = new IBRealTimeBarEngine(quoteEngine, historicalDataProvider);
+
+        RealtimeBarRequest request = new RealtimeBarRequest(1, ticker, barSize, barSizeUnit, dataToRequest);
+
+        realtimeBarProvider.subscribeRealtimeBars(request, (int requestId, Ticker _ticker, BarData bar) -> {
             System.out.println(bar.toString());
         });
 
+        /*
+        ibClient.subscribeRealtimeBar(request, (int requestId, Ticker _ticker, BarData bar) -> {
+            System.out.println(bar.toString());
+        });
+        */
+
+        ibClient.disconnect();
         
     }
     

@@ -7,10 +7,16 @@ package com.sumzerotrading.ib.example.historical.data;
 
 import com.sumzerotrading.data.BarData;
 import com.sumzerotrading.data.BarData.LengthUnit;
+import com.sumzerotrading.data.CurrencyTicker;
+import com.sumzerotrading.data.Exchange;
 import com.sumzerotrading.data.StockTicker;
 import com.sumzerotrading.historicaldata.IHistoricalDataProvider.ShowProperty;
 import com.sumzerotrading.interactive.brokers.client.InteractiveBrokersClient;
 import com.sumzerotrading.interactive.brokers.client.InteractiveBrokersClientInterface;
+
+import java.math.BigDecimal;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.List;
 
 /**
@@ -24,17 +30,21 @@ public class HistoricalDataExample {
     
     
     public void requestHistoricalData() {
-        InteractiveBrokersClientInterface client = InteractiveBrokersClient.getInstance("localhost", 6468, 1);
+        InteractiveBrokersClientInterface client = InteractiveBrokersClient.getInstance("localhost", IB_PORT, 1);
         client.connect();
         
-        StockTicker ticker = new StockTicker("AMZN");
+        //StockTicker ticker = new StockTicker("AMZN");
+        CurrencyTicker ticker = new CurrencyTicker();
+        ticker.setExchange(Exchange.IDEALPRO);
+        ticker.setSymbol("EUR");
+        ticker.setCurrency("USD");
+        ticker.setContractMultiplier(BigDecimal.ONE);
         int duration = 1;
         LengthUnit durationUnit = LengthUnit.DAY;
         int barSize = 1;
         LengthUnit barSizeUnit = LengthUnit.MINUTE;
-        ShowProperty dataToRequest = ShowProperty.TRADES;
-        
-        
+        ShowProperty dataToRequest = ShowProperty.MIDPOINT;
+
         List<BarData> historicalData = client.requestHistoricalData(ticker, duration, durationUnit, barSize, barSizeUnit, dataToRequest);
         
         System.out.println("Retrieved " + historicalData.size() + " bars");
