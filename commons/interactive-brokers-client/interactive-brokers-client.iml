@@ -33,5 +33,7 @@
     <orderEntry type="library" name="Maven: org.quartz-scheduler:quartz:2.1.2" level="project" />
     <orderEntry type="library" name="Maven: c3p0:c3p0:0.9.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-all:1.10.19" level="project" />
+    <orderEntry type="library" name="Maven: org.ta4j:ta4j-examples:0.12-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.ta4j:ta4j-core:0.12-SNAPSHOT" level="project" />
   </component>
 </module>

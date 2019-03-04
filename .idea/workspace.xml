@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36f33ab4-98cf-46b8-a260-6ea5d7a8025e" name="Default" comment="Pruebas paper trading" />
+    <list default="true" id="36f33ab4-98cf-46b8-a260-6ea5d7a8025e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ta4j_ta4j_core_0_12_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ta4j_ta4j_examples_0_12_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SumZeroParent/SumZeroParent.iml" afterPath="$PROJECT_DIR$/SumZeroParent/SumZeroParent.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SumZeroParent/pom.xml" afterPath="$PROJECT_DIR$/SumZeroParent/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commons/interactive-brokers-api/interactive-brokers-api.iml" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/interactive-brokers-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commons/interactive-brokers-client/interactive-brokers-client.iml" afterPath="$PROJECT_DIR$/commons/interactive-brokers-client/interactive-brokers-client.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commons/interactive-brokers-integration-tests/interactive-brokers-integration-tests.iml" afterPath="$PROJECT_DIR$/commons/interactive-brokers-integration-tests/interactive-brokers-integration-tests.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commons/sumzero-commons-api/sumzero-commons-api.iml" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/sumzero-commons-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commons/sumzero-commons.iml" afterPath="$PROJECT_DIR$/commons/sumzero-commons.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commons/sumzero-ib-common-api/sumzero-ib-common-api.iml" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/sumzero-ib-common-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/EODTradingStrategy/EODTradingStrategy.iml" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/EODTradingStrategy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/InteractiveBrokersExamples.iml" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/InteractiveBrokersExamples.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/IntradayTradingExample/IntradayTradingStrategy.iml" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/IntradayTradingStrategy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/examples.iml" afterPath="$PROJECT_DIR$/examples/examples.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/broker-api/broker-api.iml" afterPath="$PROJECT_DIR$/implementations/broker-api/broker-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/broker-api/ib-broker-api-impl/ib-broker-api-impl.iml" afterPath="$PROJECT_DIR$/implementations/broker-api/ib-broker-api-impl/ib-broker-api-impl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/historical-data-api/historical-data-api.iml" afterPath="$PROJECT_DIR$/implementations/historical-data-api/historical-data-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/ib-historical-data-api-impl.iml" afterPath="$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/ib-historical-data-api-impl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/ib-market-data-api-impl.iml" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/ib-market-data-api-impl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/market-data-api/market-data-api.iml" afterPath="$PROJECT_DIR$/implementations/market-data-api/market-data-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/ib-real-time-bar-api-impl.iml" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/ib-real-time-bar-api-impl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/real-time-bar-api/real-time-bar-api.iml" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/real-time-bar-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/csv-reporting-api-impl.iml" afterPath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/csv-reporting-api-impl.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/reporting-api/reporting-api.iml" afterPath="$PROJECT_DIR$/implementations/reporting-api/reporting-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/strategy-api/strategy-api.iml" afterPath="$PROJECT_DIR$/implementations/strategy-api/strategy-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/sumzero-implementations.iml" afterPath="$PROJECT_DIR$/implementations/sumzero-implementations.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sumzero-api/sumzero-api.iml" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/sumzero-broker-api.iml" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/sumzero-broker-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sumzero-api/sumzero-historical-data-api/sumzero-historical-data-api.iml" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-historical-data-api/sumzero-historical-data-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/sumzero-market-data-api.iml" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/sumzero-market-data-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sumzero-api/sumzero-real-time-bar-api/sumzero-real-time-bar-api.iml" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-real-time-bar-api/sumzero-real-time-bar-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sumzero-api/sumzero-reporting-api/sumzero-reporting-api.iml" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-reporting-api/sumzero-reporting-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sumzero-api/sumzero-strategy-api/sumzero-strategy-api.iml" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-strategy-api/sumzero-strategy-api.iml" />
+    </list>
     <ignored path="SumZeroTrading.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/implementations/market-data-api/bitmex-market-data-api-impl/target/" />
@@ -58,21 +95,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MarketDataCurrencyExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MarketDataCurrencyExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="102" column="57" selection-start-line="102" selection-start-column="57" selection-end-line="102" selection-end-column="57" />
-              <folding />
+            <state relative-caret-position="421">
+              <caret line="80" column="11" selection-start-line="76" selection-start-column="8" selection-end-line="80" selection-end-column="11" />
+              <folding>
+                <element signature="e#3855#3856#0" expanded="true" />
+                <element signature="e#3910#3911#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IBRealTimeBarEngine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/IBRealTimeBarEngine.java">
+      <file leaf-file-name="LiveTestingTimeSeries.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="263">
+              <caret line="123" column="71" selection-start-line="123" selection-start-column="71" selection-end-line="123" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -81,18 +121,18 @@
       <file leaf-file-name="BarBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/BarBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="218">
+              <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RealtimeBarListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sumzero-api/sumzero-real-time-bar-api/src/main/java/com/sumzerotrading/realtime/bar/RealtimeBarListener.java">
+      <file leaf-file-name="ContractBuilderFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/ContractBuilderFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="342">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,11 +148,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JobRunShell.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.1.2/quartz-2.1.2.jar!/org/quartz/core/JobRunShell.class">
+      <file leaf-file-name="Decimal.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/Decimal.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+            <state relative-caret-position="130">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+              <folding>
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CsvTicksLoader.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/loaders/CsvTicksLoader.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="58" selection-end-column="123" />
               <folding />
             </state>
           </provider>
@@ -121,28 +174,8 @@
       <file leaf-file-name="IBHistoricalDataProvider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/src/main/java/com/sumzerotrading/ib/historical/IBHistoricalDataProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1455">
-              <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IBConnection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/IBConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3450">
-              <caret line="277" column="0" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/EReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15015">
-              <caret line="1006" column="0" selection-start-line="1006" selection-start-column="0" selection-end-line="1006" selection-end-column="0" />
+            <state relative-caret-position="128">
+              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -151,7 +184,7 @@
       <file leaf-file-name="InteractiveBrokersClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commons/interactive-brokers-client/src/main/java/com/sumzerotrading/interactive/brokers/client/InteractiveBrokersClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1875">
+            <state relative-caret-position="164">
               <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
               <folding />
             </state>
@@ -185,8 +218,10 @@
         <option value="$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/Contract.java" />
         <option value="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/historical/data/HistoricalDataExample.java" />
         <option value="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/BarBuilder.java" />
-        <option value="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java" />
         <option value="$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/src/main/java/com/sumzerotrading/ib/historical/IBHistoricalDataProvider.java" />
+        <option value="$PROJECT_DIR$/SumZeroParent/pom.xml" />
+        <option value="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java" />
+        <option value="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java" />
       </list>
     </option>
   </component>
@@ -296,7 +331,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="implementations" />
+              <option name="myItemId" value="SumZeroParent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,11 +345,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="implementations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="real-time-bar-api" />
+              <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,15 +359,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="implementations" />
+              <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="real-time-bar-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ib-real-time-bar-api-impl" />
+              <option name="myItemId" value="InteractiveBrokersExamples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,7 +377,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="commons" />
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InteractiveBrokersExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -364,29 +403,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="commons" />
+              <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="interactive-brokers-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SumZeroTrading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SumZeroTrading-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interactive-brokers-api" />
+              <option name="myItemId" value="InteractiveBrokersExamples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -402,7 +423,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ib" />
+              <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -416,11 +437,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="commons" />
+              <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="interactive-brokers-api" />
+              <option name="myItemId" value="InteractiveBrokersExamples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -436,33 +457,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ib" />
+              <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SumZeroTrading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SumZeroTrading-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interactive-brokers-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -480,7 +479,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4057725" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jMetal-master" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
   </component>
@@ -489,7 +488,7 @@
       <recent name="com.sumzerotrading.ib.example.market.data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MarketDataCurrencyExample">
+  <component name="RunManager" selected="Application.LiveTestingTimeSeries">
     <configuration default="false" name="IbUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -564,6 +563,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.sumzerotrading.ib.example.historical.data.HistoricalDataExample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="InteractiveBrokersExamples" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LiveTestingTimeSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.sumzerotrading.ib.example.market.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.sumzerotrading.ib.example.market.data.LiveTestingTimeSeries" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1009,18 +1028,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.IbUtilsTest" />
       <item index="1" class="java.lang.String" itemvalue="Application.TradingExample" />
       <item index="2" class="java.lang.String" itemvalue="Application.MarketDataCurrencyExample" />
       <item index="3" class="java.lang.String" itemvalue="Application.HistoricalDataExample" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LiveTestingTimeSeries" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.MarketDataCurrencyExample" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HistoricalDataExample" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TradingExample" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.IbUtilsTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.LiveTestingTimeSeries" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MarketDataCurrencyExample" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HistoricalDataExample" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TradingExample" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.IbUtilsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1042,7 +1063,7 @@
       <workItem from="1550271519364" duration="11640000" />
       <workItem from="1551485045833" duration="33183000" />
       <workItem from="1551715465185" duration="12951000" />
-      <workItem from="1551728783164" duration="26000" />
+      <workItem from="1551728783164" duration="10918000" />
     </task>
     <task id="LOCAL-00001" summary="Pruebas paper trading">
       <created>1551580468605</created>
@@ -1051,7 +1072,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551580468605</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Pruebas paper trading">
+      <created>1551728839165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551728839165</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1060,7 +1088,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60213000" />
+    <option name="totallyTimeSpent" value="71105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1922" height="911" extended-state="6" />
@@ -1068,11 +1096,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17604166" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1765625" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19215687" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26928106" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1082,14 +1112,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45359477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42222223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38039216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28104576" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1156,19 +1184,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java</url>
-          <line>61</line>
+          <line>55</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java</url>
-          <line>109</line>
+          <line>87</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java</url>
-          <line>59</line>
+          <line>53</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -1180,30 +1208,48 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java</url>
-          <line>95</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/src/main/java/com/sumzerotrading/ib/historical/IBHistoricalDataProvider.java</url>
-          <line>98</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/src/main/java/com/sumzerotrading/ib/historical/IBHistoricalDataProvider.java</url>
-          <line>106</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java</url>
-          <line>104</line>
+          <line>82</line>
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java</url>
+          <line>170</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java</url>
+          <line>206</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="45" />
+      <option name="time" value="54" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1212,62 +1258,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/src/main/java/com/sumzerotrading/marketdata/ib/AbstractIBQuoteEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/implementations/broker-api/collective2-broker-api-impl/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/implementations/broker-api/bitmex-broker-api-impl/src/main/java/com/sumzerotrading/broker/bitmex/BitmexBroker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/implementations/broker-api/collective2-broker-api-impl/src/main/java/com/sumzerotrading/broker/c2/C2Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/implementations/broker-api/collective2-broker-api-impl/src/main/java/com/sumzerotrading/broker/c2/Collective2Broker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/implementations/broker-api/collective2-broker-api-impl/src/main/java/com/sumzerotrading/broker/c2/TradeSignalBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/implementations/broker-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/implementations/historical-data-api/bitmex-historical-data-api-imple/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -1521,25 +1511,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.1.2/quartz-2.1.2.jar!/org/quartz/core/JobRunShell.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sumzero-api/sumzero-real-time-bar-api/src/main/java/com/sumzerotrading/realtime/bar/RealtimeBarListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/IBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3450">
+          <caret line="277" column="0" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2166#2167#0" expanded="false" />
+            <element signature="e#2221#2222#0" expanded="false" />
+            <element signature="e#2297#2298#0" expanded="false" />
+            <element signature="e#2348#2349#0" expanded="false" />
+            <element signature="e#2427#2428#0" expanded="false" />
+            <element signature="e#2481#2482#0" expanded="false" />
+            <element signature="e#2540#2541#0" expanded="false" />
+            <element signature="e#2580#2581#0" expanded="false" />
+            <element signature="e#2634#2635#0" expanded="false" />
+            <element signature="e#2666#2667#0" expanded="false" />
+            <element signature="e#2717#2718#0" expanded="false" />
+            <element signature="e#2749#2750#0" expanded="false" />
+            <element signature="e#2795#2796#0" expanded="false" />
+            <element signature="e#2826#2827#0" expanded="false" />
+            <element signature="e#2871#2872#0" expanded="false" />
+            <element signature="e#2898#2899#0" expanded="false" />
+            <element signature="e#2940#2941#0" expanded="false" />
+            <element signature="e#2967#2968#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/EReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15015">
+          <caret line="1006" column="0" selection-start-line="1006" selection-start-column="0" selection-end-line="1006" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#46845#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2550#2551#0" expanded="false" />
+            <element signature="e#2594#2595#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/IBRealTimeBarEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#3609#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#925#958#0" expanded="false" />
+            <element signature="e#1416#1417#0" expanded="false" />
+            <element signature="e#1504#1505#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SumZeroParent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="153" column="21" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/TimeSeries.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/ta4j/ta4j-examples/0.12-SNAPSHOT/ta4j-examples-0.12-SNAPSHOT.jar!/ta4jexamples/loaders/CsvTicksLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="58" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="80" column="11" selection-start-line="76" selection-start-column="8" selection-end-line="80" selection-end-column="11" />
+          <folding>
+            <element signature="e#3855#3856#0" expanded="true" />
+            <element signature="e#3910#3911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/Decimal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/ContractBuilderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/src/main/java/com/sumzerotrading/ib/historical/IBHistoricalDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/interactive-brokers-client/src/main/java/com/sumzerotrading/interactive/brokers/client/InteractiveBrokersClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
+        <state relative-caret-position="164">
           <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
           <folding />
         </state>
@@ -1553,50 +1672,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/IBConnection.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.1.2/quartz-2.1.2.jar!/org/quartz/core/JobRunShell.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3450">
-          <caret line="277" column="0" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/interactive-brokers-api/src/main/java/com/ib/client/EReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15015">
-          <caret line="1006" column="0" selection-start-line="1006" selection-start-column="0" selection-end-line="1006" selection-end-column="0" />
+        <state relative-caret-position="192">
+          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/BarBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="218">
+          <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/src/main/java/com/sumzerotrading/ib/historical/IBHistoricalDataProvider.java">
+    <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
-          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/IBRealTimeBarEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="102" column="57" selection-start-line="102" selection-start-column="57" selection-end-line="102" selection-end-column="57" />
+        <state relative-caret-position="263">
+          <caret line="123" column="71" selection-start-line="123" selection-start-column="71" selection-end-line="123" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -1702,6 +1797,8 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
+    <option value="install:install-file -Dfile=ta4j-examples-0.12-SNAPSHOT.jar -DgroupId=org-ta4j-examples -DartifactId=ta4j-examples -Dversion=0.12-SNAPSHOT -Dpackaging=jar" />
+    <option value="install:install-file -Dfile=ta4j-core-0.12-SNAPSHOT.jar -DgroupId=org-ta4j-core -DartifactId=ta4j-core -Dversion=0.12-SNAPSHOT -Dpackaging=jar" />
     <option value="install:install-file -Dfile=log4j-1.2.14.jar -DgroupId=apache-log4j -DartifactId=log4j -Dversion=1.2.14 -Dpackaging=jar" />
   </component>
 </project>

@@ -49,12 +49,6 @@ public class MarketDataCurrencyExample {
     static final int IB_PORT = 4002;
     static final int TWS_PORT = 7497;
     static int CLIENT_ID;
-
-    protected IBSocket ibSocket;
-    protected QuoteEngine quoteEngine;
-    protected IBroker broker;
-    IRealtimeBarEngine realtimeBarProvider;
-    protected IHistoricalDataProvider historicalDataProvider;
     
     public void start() {
         CLIENT_ID = ThreadLocalRandom.current().nextInt(1, 1000000 + 1);
@@ -80,27 +74,11 @@ public class MarketDataCurrencyExample {
             System.out.println("Retrieved Bar: " + bar);
         });
 
-        IBConnectionUtil util = new IBConnectionUtil("localhost", IB_PORT, ibClient.getClientId());
-
-        ibSocket = util.getIBSocket();
-        quoteEngine = new IBQuoteEngine(ibSocket);
-        broker = new InteractiveBrokersBroker(ibSocket);
-
-        historicalDataProvider = new IBHistoricalDataProvider(ibSocket);
-        historicalDataProvider.connect();
-        realtimeBarProvider = new IBRealTimeBarEngine(quoteEngine, historicalDataProvider);
-
         RealtimeBarRequest request = new RealtimeBarRequest(ibClient.getClientId(), ticker, barSize, barSizeUnit, dataToRequest);
 
-        realtimeBarProvider.subscribeRealtimeBars(request, (int requestId, Ticker _ticker, BarData bar) -> {
+        ibClient.subscribeRealtimeBar(request, (int requestId, Ticker _ticker, BarData bar) -> {
             System.out.println(bar.toString());
         });
-
-        RealtimeBarListener listener = (int requestId, Ticker _ticker, BarData bar) -> {
-            System.out.println(bar.toString());
-        };
-
-        ibClient.subscribeRealtimeBar(request, listener);
 
         ibClient.disconnect();
         

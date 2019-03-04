@@ -142,5 +142,15 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.ta4j</groupId>
+            <artifactId>ta4j-examples</artifactId>
+            <version>0.12-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ta4j</groupId>
+            <artifactId>ta4j-core</artifactId>
+            <version>0.12-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>
