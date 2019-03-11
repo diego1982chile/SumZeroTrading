@@ -1,43 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36f33ab4-98cf-46b8-a260-6ea5d7a8025e" name="Default" comment="Pruebas apis">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ta4j_ta4j_core_0_12_SNAPSHOT.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ta4j_ta4j_examples_0_12_SNAPSHOT.xml" afterPath="" />
+    <list default="true" id="36f33ab4-98cf-46b8-a260-6ea5d7a8025e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SumZeroParent/SumZeroParent.iml" afterPath="$PROJECT_DIR$/SumZeroParent/SumZeroParent.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SumZeroParent/pom.xml" afterPath="$PROJECT_DIR$/SumZeroParent/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commons/interactive-brokers-api/interactive-brokers-api.iml" afterPath="$PROJECT_DIR$/commons/interactive-brokers-api/interactive-brokers-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commons/interactive-brokers-client/interactive-brokers-client.iml" afterPath="$PROJECT_DIR$/commons/interactive-brokers-client/interactive-brokers-client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commons/interactive-brokers-integration-tests/interactive-brokers-integration-tests.iml" afterPath="$PROJECT_DIR$/commons/interactive-brokers-integration-tests/interactive-brokers-integration-tests.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commons/sumzero-commons-api/sumzero-commons-api.iml" afterPath="$PROJECT_DIR$/commons/sumzero-commons-api/sumzero-commons-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commons/sumzero-commons.iml" afterPath="$PROJECT_DIR$/commons/sumzero-commons.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commons/sumzero-ib-common-api/sumzero-ib-common-api.iml" afterPath="$PROJECT_DIR$/commons/sumzero-ib-common-api/sumzero-ib-common-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/EODTradingStrategy/EODTradingStrategy.iml" afterPath="$PROJECT_DIR$/examples/EODTradingStrategy/EODTradingStrategy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/InteractiveBrokersExamples.iml" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/InteractiveBrokersExamples.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/pom.xml" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/IntradayTradingExample/IntradayTradingStrategy.iml" afterPath="$PROJECT_DIR$/examples/IntradayTradingExample/IntradayTradingStrategy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/examples.iml" afterPath="$PROJECT_DIR$/examples/examples.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/broker-api/broker-api.iml" afterPath="$PROJECT_DIR$/implementations/broker-api/broker-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/broker-api/ib-broker-api-impl/ib-broker-api-impl.iml" afterPath="$PROJECT_DIR$/implementations/broker-api/ib-broker-api-impl/ib-broker-api-impl.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/historical-data-api/historical-data-api.iml" afterPath="$PROJECT_DIR$/implementations/historical-data-api/historical-data-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/ib-historical-data-api-impl.iml" afterPath="$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/ib-historical-data-api-impl.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/ib-market-data-api-impl.iml" afterPath="$PROJECT_DIR$/implementations/market-data-api/ib-market-data-api-impl/ib-market-data-api-impl.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/market-data-api/market-data-api.iml" afterPath="$PROJECT_DIR$/implementations/market-data-api/market-data-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/ib-real-time-bar-api-impl.iml" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/ib-real-time-bar-api-impl.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/real-time-bar-api/real-time-bar-api.iml" afterPath="$PROJECT_DIR$/implementations/real-time-bar-api/real-time-bar-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/csv-reporting-api-impl.iml" afterPath="$PROJECT_DIR$/implementations/reporting-api/csv-reporting-api-impl/csv-reporting-api-impl.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/reporting-api/reporting-api.iml" afterPath="$PROJECT_DIR$/implementations/reporting-api/reporting-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/strategy-api/strategy-api.iml" afterPath="$PROJECT_DIR$/implementations/strategy-api/strategy-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/implementations/sumzero-implementations.iml" afterPath="$PROJECT_DIR$/implementations/sumzero-implementations.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sumzero-api/sumzero-api.iml" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/sumzero-broker-api.iml" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-broker-api/sumzero-broker-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sumzero-api/sumzero-historical-data-api/sumzero-historical-data-api.iml" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-historical-data-api/sumzero-historical-data-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/sumzero-market-data-api.iml" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-market-data-api/sumzero-market-data-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sumzero-api/sumzero-real-time-bar-api/sumzero-real-time-bar-api.iml" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-real-time-bar-api/sumzero-real-time-bar-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sumzero-api/sumzero-reporting-api/sumzero-reporting-api.iml" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-reporting-api/sumzero-reporting-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sumzero-api/sumzero-strategy-api/sumzero-strategy-api.iml" afterPath="$PROJECT_DIR$/sumzero-api/sumzero-strategy-api/sumzero-strategy-api.iml" />
     </list>
     <ignored path="SumZeroTrading.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,8 +79,8 @@
       <file leaf-file-name="LiveTestingTimeSeries.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="171" column="36" selection-start-line="171" selection-start-column="36" selection-end-line="171" selection-end-column="36" />
+            <state relative-caret-position="348">
+              <caret line="174" column="20" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -429,7 +394,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4057725" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../servidor-terminologico" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ta-4j-master" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
   </component>
@@ -1016,7 +981,7 @@
       <workItem from="1551728783164" duration="12190000" />
       <workItem from="1551804834338" duration="2618000" />
       <workItem from="1551809468133" duration="767000" />
-      <workItem from="1551825566910" duration="18685000" />
+      <workItem from="1551825566910" duration="19953000" />
     </task>
     <task id="LOCAL-00001" summary="Pruebas paper trading">
       <created>1551580468605</created>
@@ -1039,7 +1004,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551740663590</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Se avanza con pruebas">
+      <created>1552327029240</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552327029240</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1048,7 +1020,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94447000" />
+    <option name="totallyTimeSpent" value="95715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1922" height="911" extended-state="6" />
@@ -1072,7 +1044,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47320262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47320262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1097,7 +1069,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pruebas paper trading" />
     <MESSAGE value="Pruebas apis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pruebas apis" />
+    <MESSAGE value="Se avanza con pruebas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se avanza con pruebas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1644,8 +1617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="171" column="36" selection-start-line="171" selection-start-column="36" selection-end-line="171" selection-end-column="36" />
+        <state relative-caret-position="348">
+          <caret line="174" column="20" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="20" />
           <folding />
         </state>
       </provider>
