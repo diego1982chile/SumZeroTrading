@@ -23,7 +23,5 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.19" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-all:1.10.19" level="project" />
-    <orderEntry type="library" name="Maven: org.ta4j:ta4j-examples:0.12-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: org.ta4j:ta4j-core:0.12-SNAPSHOT" level="project" />
   </component>
 </module>

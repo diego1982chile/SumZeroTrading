@@ -22,7 +22,5 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:2.1" level="project" />
     <orderEntry type="library" name="Maven: apache-log4j:log4j:1.2.14" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-all:1.10.19" level="project" />
-    <orderEntry type="library" name="Maven: org.ta4j:ta4j-examples:0.12-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: org.ta4j:ta4j-core:0.12-SNAPSHOT" level="project" />
   </component>
 </module>

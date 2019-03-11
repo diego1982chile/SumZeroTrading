@@ -38,6 +38,7 @@ import ta4jexamples.strategies.*;
 
 import java.io.*;
 import java.math.BigDecimal;
+import java.text.DecimalFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -45,6 +46,8 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
 import java.time.temporal.ChronoField;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -70,6 +73,15 @@ public class LiveTestingTimeSeries {
     static final int BAR_SIZE = 1;
     static final BarData.LengthUnit BAR_SIZE_UNIT = BarData.LengthUnit.DAY;
     static final IHistoricalDataProvider.ShowProperty DATA_TO_REQUEST =  IHistoricalDataProvider.ShowProperty.MIDPOINT;
+    static final Date END_DATE =  Date                        // Terrible old legacy class, avoid using. Represents a moment in UTC.
+            .from(                                // New conversion method added to old classes for converting between legacy classes and modern classes.
+                    LocalDate                         // Represents a date-only value, without time-of-day and without time zone.
+                            .of( 2018 , 12 , 31 )              // Specify year-month-day. Notice sane counting, unlike legacy classes: 2014 means year 2014, 1-12 for Jan-Dec.
+                            .atStartOfDay(                    // Let java.time determine first moment of the day. May *not* start at 00:00:00 because of anomalies such as Daylight Saving Time (DST).
+                                    ZoneId.systemDefault()   // Specify time zone as `Continent/Region`, never the 3-4 letter pseudo-zones like `PST`, `EST`, or `IST`.
+                            )                                 // Returns a `ZonedDateTime`.
+                            .toInstant()                      // Adjust from zone to UTC. Returns a `Instant` object, always in UTC by definition.
+            ) ;
 
     static final DateTimeFormatter DATE_TIME_FORMATTER = new DateTimeFormatterBuilder()
             .appendPattern("yyyy.MM.dd HH:mm:ss")
@@ -106,17 +118,43 @@ public class LiveTestingTimeSeries {
      */
     private static TimeSeries initMovingTimeSeries(int maxBarCount) {
 
-        List<BarData> historicalData = ibClient.requestHistoricalData(ticker, DURATION, DURATION_UNIT, BAR_SIZE, BAR_SIZE_UNIT, DATA_TO_REQUEST);
+        List<BarData> historicalData = new ArrayList<>();
+
+        //List<BarData> historicalData = ibClient.requestHistoricalData(ticker, DURATION, DURATION_UNIT, BAR_SIZE, BAR_SIZE_UNIT, DATA_TO_REQUEST);
+
+        try {
+            historicalData = ibClient.requestHistoricalData(ticker, END_DATE, DURATION, DURATION_UNIT, BAR_SIZE, BAR_SIZE_UNIT, DATA_TO_REQUEST, false);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         for (BarData barData : historicalData) {
             live.addBar(toBar(barData));
         }
 
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("test.csv"))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("test_2018.csv"))) {
 
             for (Bar bar : live.getBarData()) {
+
                 writer.newLine();
-                writer.write(bar.getBeginTime().format(DATE_FORMATTER) + ";" + bar.getOpenPrice() + ";" + bar.getMaxPrice() + ";" + bar.getMinPrice() + ";" + bar.getClosePrice() + ";" + bar.getVolume());
+
+                String open = String.format("%.5f", bar.getOpenPrice().doubleValue());
+
+                String max = String.format("%.5f", bar.getMaxPrice().doubleValue());
+
+                String min = String.format("%.5f", bar.getMinPrice().doubleValue());
+
+                String close = String.format("%.5f", bar.getClosePrice().doubleValue());
+
+                String volume = String.format("%.5f", bar.getVolume().doubleValue());
+
+                String dateTime = bar.getEndTime().format(DATE_TIME_FORMATTER);
+                String[] tokens = dateTime.split(" ");
+                String date = tokens[0];
+                String time = tokens[1];
+
+                //writer.write(date + ";" + time + ";" + open + ";" + max + ";" + min + ";" + close + ";" + volume);
+                writer.write(date + ";" + open + ";" + max + ";" + min + ";" + close + ";" + volume);
                 writer.flush();
             }
             writer.close();
