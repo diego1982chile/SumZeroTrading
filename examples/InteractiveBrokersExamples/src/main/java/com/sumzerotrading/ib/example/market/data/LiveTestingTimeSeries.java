@@ -187,6 +187,8 @@ public class LiveTestingTimeSeries {
             throw new IllegalArgumentException("Series cannot be null");
         }
 
+        //TODO: Obtener vector de estrategias desde BD..
+
         List<Strategy> strategies = new ArrayList<>();
 
         //strategies.add(CCICorrectionStrategy.buildStrategy(series));
@@ -231,6 +233,8 @@ public class LiveTestingTimeSeries {
             System.out.println("------------------------------------------------------\n"
                     + "Bar "+cont+" added, close price = " + newBar.getClosePrice().doubleValue());
             series.addBar(newBar);
+
+            //TODO: Actualizar periodicamente la estrategia. EJ: Si fecha actual es un FDS actualizar...
 
             int endIndex = series.getEndIndex();
             if (strategy.shouldEnter(endIndex)) {
