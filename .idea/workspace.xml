@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="36f33ab4-98cf-46b8-a260-6ea5d7a8025e" name="Default" comment="Se avanza con pruebas">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java" />
     </list>
     <ignored path="SumZeroTrading.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +71,6 @@
                 <element signature="imports" expanded="false" />
                 <element signature="e#3855#3856#0" expanded="false" />
                 <element signature="e#3910#3911#0" expanded="false" />
-                <marker date="1551730821703" expanded="true" signature="2388:3806" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -79,8 +79,28 @@
       <file leaf-file-name="LiveTestingTimeSeries.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+            <state relative-caret-position="222">
+              <caret line="81" column="91" selection-start-line="81" selection-start-column="91" selection-end-line="81" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseTimeSeries.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/BaseTimeSeries.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="164" column="43" selection-start-line="164" selection-start-column="30" selection-end-line="164" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeSeries.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/TimeSeries.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -89,7 +109,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commons/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-360">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -99,13 +119,9 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
+            <state relative-caret-position="840">
               <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
-              <folding>
-                <marker date="1551891155795" expanded="true" signature="242:2521" ph="..." />
-                <marker date="1551891155795" expanded="true" signature="544:2313" ph="..." />
-                <marker date="1551891155795" expanded="true" signature="2135:2293" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,7 +129,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -123,32 +139,9 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SumZeroParent/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2055">
+            <state relative-caret-position="2115">
               <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
-              <folding>
-                <marker date="1551891343972" expanded="true" signature="1335:5464" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="1581:1674" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="1708:1950" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="1729:1920" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="1977:5017" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="1995:5003" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="2016:2481" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="2171:2419" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="2299:2386" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="2499:3221" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="3244:3578" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="3440:3556" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="3613:4410" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="3809:3980" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="4009:4388" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="4041:4358" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="4116:4200" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="4284:4325" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="4428:4974" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="5036:5453" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="5057:5242" ph="..." />
-                <marker date="1551891343972" expanded="true" signature="5263:5433" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -178,58 +171,6 @@
               <folding>
                 <element signature="e#0#703#0" expanded="false" />
                 <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IBHistoricalDataProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/implementations/historical-data-api/ib-historical-data-api-impl/src/main/java/com/sumzerotrading/ib/historical/IBHistoricalDataProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#2951#2952#0" expanded="false" />
-                <element signature="e#2996#2997#0" expanded="false" />
-                <element signature="e#3039#3040#0" expanded="false" />
-                <element signature="e#3073#3074#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InteractiveBrokersClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commons/interactive-brokers-client/src/main/java/com/sumzerotrading/interactive/brokers/client/InteractiveBrokersClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1875">
-              <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#5041#5042#0" expanded="false" />
-                <element signature="e#5096#5097#0" expanded="false" />
-                <element signature="e#5185#5186#0" expanded="false" />
-                <element signature="e#5243#5244#0" expanded="false" />
-                <element signature="e#5318#5319#0" expanded="false" />
-                <element signature="e#5363#5364#0" expanded="false" />
-                <element signature="e#5412#5413#0" expanded="false" />
-                <element signature="e#5439#5440#0" expanded="false" />
-                <element signature="e#5481#5482#0" expanded="false" />
-                <element signature="e#5508#5509#0" expanded="false" />
-                <element signature="e#5554#5555#0" expanded="false" />
-                <element signature="e#5585#5586#0" expanded="false" />
-                <element signature="e#5651#5652#0" expanded="false" />
-                <element signature="e#5691#5692#0" expanded="false" />
-                <element signature="e#5780#5781#0" expanded="false" />
-                <element signature="e#5834#5835#0" expanded="false" />
-                <element signature="e#5890#5891#0" expanded="false" />
-                <element signature="e#5936#5937#0" expanded="false" />
-                <element signature="e#5997#5998#0" expanded="false" />
-                <element signature="e#6042#6043#0" expanded="false" />
-                <element signature="e#6908#6909#0" expanded="false" />
-                <element signature="e#6955#6956#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -350,6 +291,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -384,7 +326,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,7 +335,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4057725" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ta-4j-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
   </component>
@@ -981,7 +922,9 @@
       <workItem from="1551728783164" duration="12190000" />
       <workItem from="1551804834338" duration="2618000" />
       <workItem from="1551809468133" duration="767000" />
-      <workItem from="1551825566910" duration="20698000" />
+      <workItem from="1551825566910" duration="21431000" />
+      <workItem from="1553093681197" duration="5194000" />
+      <workItem from="1553193811605" duration="3214000" />
     </task>
     <task id="LOCAL-00001" summary="Pruebas paper trading">
       <created>1551580468605</created>
@@ -1018,7 +961,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552329491223</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Se avanza con pruebas">
+      <created>1552332044456</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552332044456</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1027,11 +977,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96460000" />
+    <option name="totallyTimeSpent" value="105601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1922" height="911" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1040,7 +990,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1765625" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19215687" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41960785" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29934642" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1051,7 +1001,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47320262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51111114" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1161,25 +1111,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java</url>
-          <line>170</line>
+          <line>173</line>
           <properties />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java</url>
-          <line>206</line>
+          <line>209</line>
           <properties />
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java</url>
-          <line>136</line>
+          <line>139</line>
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java</url>
-          <line>159</line>
+          <line>162</line>
           <properties />
           <option name="timeStamp" value="57" />
         </line-breakpoint>
@@ -1189,8 +1139,14 @@
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/TimeSeries.class</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="71" />
+      <option name="time" value="76" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1199,20 +1155,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/implementations/market-data-api/bitmex-market-data-api-impl/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/implementations/market-data-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataStocksExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1338,7 +1280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-692">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1462,9 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1472,14 +1410,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2951#2952#0" expanded="false" />
-            <element signature="e#2996#2997#0" expanded="false" />
-            <element signature="e#3039#3040#0" expanded="false" />
-            <element signature="e#3073#3074#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1487,32 +1418,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1875">
           <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5041#5042#0" expanded="false" />
-            <element signature="e#5096#5097#0" expanded="false" />
-            <element signature="e#5185#5186#0" expanded="false" />
-            <element signature="e#5243#5244#0" expanded="false" />
-            <element signature="e#5318#5319#0" expanded="false" />
-            <element signature="e#5363#5364#0" expanded="false" />
-            <element signature="e#5412#5413#0" expanded="false" />
-            <element signature="e#5439#5440#0" expanded="false" />
-            <element signature="e#5481#5482#0" expanded="false" />
-            <element signature="e#5508#5509#0" expanded="false" />
-            <element signature="e#5554#5555#0" expanded="false" />
-            <element signature="e#5585#5586#0" expanded="false" />
-            <element signature="e#5651#5652#0" expanded="false" />
-            <element signature="e#5691#5692#0" expanded="false" />
-            <element signature="e#5780#5781#0" expanded="false" />
-            <element signature="e#5834#5835#0" expanded="false" />
-            <element signature="e#5890#5891#0" expanded="false" />
-            <element signature="e#5936#5937#0" expanded="false" />
-            <element signature="e#5997#5998#0" expanded="false" />
-            <element signature="e#6042#6043#0" expanded="false" />
-            <element signature="e#6908#6909#0" expanded="false" />
-            <element signature="e#6955#6956#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1549,6 +1455,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SumZeroParent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2115">
+          <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/MarketDataCurrencyExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1558,74 +1496,30 @@
             <element signature="imports" expanded="false" />
             <element signature="e#3855#3856#0" expanded="false" />
             <element signature="e#3910#3911#0" expanded="false" />
-            <marker date="1551730821703" expanded="true" signature="2388:3806" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/TimeSeries.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="298">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commons/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org-ta4j/ta4j-core/0.12-SNAPSHOT/ta4j-core-0.12-SNAPSHOT.jar!/org/ta4j/core/BaseTimeSeries.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="91">
+          <caret line="164" column="43" selection-start-line="164" selection-start-column="30" selection-end-line="164" selection-end-column="43" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SumZeroParent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2055">
-          <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
-          <folding>
-            <marker date="1551891343972" expanded="true" signature="1335:5464" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="1581:1674" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="1708:1950" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="1729:1920" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="1977:5017" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="1995:5003" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="2016:2481" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="2171:2419" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="2299:2386" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="2499:3221" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="3244:3578" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="3440:3556" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="3613:4410" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="3809:3980" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="4009:4388" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="4041:4358" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="4116:4200" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="4284:4325" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="4428:4974" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="5036:5453" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="5057:5242" ph="..." />
-            <marker date="1551891343972" expanded="true" signature="5263:5433" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
-          <folding>
-            <marker date="1551891155795" expanded="true" signature="242:2521" ph="..." />
-            <marker date="1551891155795" expanded="true" signature="544:2313" ph="..." />
-            <marker date="1551891155795" expanded="true" signature="2135:2293" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+        <state relative-caret-position="222">
+          <caret line="81" column="91" selection-start-line="81" selection-start-column="91" selection-end-line="81" selection-end-column="91" />
           <folding />
         </state>
       </provider>

@@ -76,7 +76,7 @@ public class LiveTestingTimeSeries {
     static final Date END_DATE =  Date                        // Terrible old legacy class, avoid using. Represents a moment in UTC.
             .from(                                // New conversion method added to old classes for converting between legacy classes and modern classes.
                     LocalDate                         // Represents a date-only value, without time-of-day and without time zone.
-                            .of( 2018 , 12 , 31 )              // Specify year-month-day. Notice sane counting, unlike legacy classes: 2014 means year 2014, 1-12 for Jan-Dec.
+                            .of( 2015 , 12 , 29 )              // Specify year-month-day. Notice sane counting, unlike legacy classes: 2014 means year 2014, 1-12 for Jan-Dec.
                             .atStartOfDay(                    // Let java.time determine first moment of the day. May *not* start at 00:00:00 because of anomalies such as Daylight Saving Time (DST).
                                     ZoneId.systemDefault()   // Specify time zone as `Continent/Region`, never the 3-4 letter pseudo-zones like `PST`, `EST`, or `IST`.
                             )                                 // Returns a `ZonedDateTime`.
@@ -132,7 +132,10 @@ public class LiveTestingTimeSeries {
             live.addBar(toBar(barData));
         }
 
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("test_2018.csv"))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("2015_D.csv"))) {
+
+            writer.write("DATE;OPEN;HIGH;LOW;CLOSE;VOLUME");
+            writer.flush();
 
             for (Bar bar : live.getBarData()) {
 
