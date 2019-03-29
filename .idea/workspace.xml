@@ -2,22 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36f33ab4-98cf-46b8-a260-6ea5d7a8025e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2010_D.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2011_D.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2013_D.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2014_D.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2015_D.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2016_D.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2016_H.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2017_D.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2017_H.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2018_D.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2018_H.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_2.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_2015.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_2017.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_2018.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_3.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java" afterPath="$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java" />
     </list>
@@ -82,7 +66,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-              <folding />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3855#3856#0" expanded="false" />
+                <element signature="e#3910#3911#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +79,8 @@
       <file leaf-file-name="LiveTestingTimeSeries.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="242" column="69" selection-start-line="242" selection-start-column="69" selection-end-line="242" selection-end-column="69" />
+            <state relative-caret-position="276">
+              <caret line="215" column="54" selection-start-line="215" selection-start-column="54" selection-end-line="215" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -162,7 +151,14 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3195">
               <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#8540#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#7243#7244#0" expanded="false" />
+                <element signature="e#7296#7297#0" expanded="false" />
+                <element signature="e#8286#8287#0" expanded="false" />
+                <element signature="e#8328#8329#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,7 +168,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#703#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -324,15 +323,15 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4057725" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -926,7 +925,10 @@
       <workItem from="1551825566910" duration="21431000" />
       <workItem from="1553093681197" duration="5194000" />
       <workItem from="1553193811605" duration="3313000" />
-      <workItem from="1553205599906" duration="424000" />
+      <workItem from="1553205599906" duration="1031000" />
+      <workItem from="1553290169602" duration="599000" />
+      <workItem from="1553532713899" duration="558000" />
+      <workItem from="1553882116691" duration="1909000" />
     </task>
     <task id="LOCAL-00001" summary="Pruebas paper trading">
       <created>1551580468605</created>
@@ -977,7 +979,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553204122505</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Se avanza con pruebas">
+      <created>1553206030827</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553206030827</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -986,7 +995,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106124000" />
+    <option name="totallyTimeSpent" value="109797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1922" height="911" extended-state="6" />
@@ -1208,13 +1217,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.1.2/quartz-2.1.2.jar!/org/quartz/quartz.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.1.2/quartz-2.1.2.jar!/org/quartz/quartz.properties" />
     <entry file="file://$PROJECT_DIR$/commons/sumzero-ib-common-api/src/main/java/com/sumzerotrading/ib/IContractBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1265,13 +1268,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/Mockito.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/Mockito.class" />
     <entry file="file://$PROJECT_DIR$/sumzero-api/sumzero-real-time-bar-api/src/main/java/com/sumzerotrading/realtime/bar/RealtimeBarRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1428,22 +1425,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#703#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.1.2/quartz-2.1.2.jar!/org/quartz/core/JobRunShell.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.1.2/quartz-2.1.2.jar!/org/quartz/core/JobRunShell.class" />
     <entry file="file://$PROJECT_DIR$/implementations/real-time-bar-api/ib-real-time-bar-api-impl/src/main/java/com/sumzerotrading/realtime/bar/ib/BarBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3195">
           <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#8540#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#7243#7244#0" expanded="false" />
+            <element signature="e#7296#7297#0" expanded="false" />
+            <element signature="e#8286#8287#0" expanded="false" />
+            <element signature="e#8328#8329#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1483,7 +1484,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3855#3856#0" expanded="false" />
+            <element signature="e#3910#3911#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1505,8 +1511,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/InteractiveBrokersExamples/src/main/java/com/sumzerotrading/ib/example/market/data/LiveTestingTimeSeries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="242" column="69" selection-start-line="242" selection-start-column="69" selection-end-line="242" selection-end-column="69" />
+        <state relative-caret-position="276">
+          <caret line="215" column="54" selection-start-line="215" selection-start-column="54" selection-end-line="215" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -1562,7 +1568,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1579,6 +1585,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -81,7 +81,7 @@ public class LiveTestingTimeSeries {
                                     ZoneId.systemDefault()   // Specify time zone as `Continent/Region`, never the 3-4 letter pseudo-zones like `PST`, `EST`, or `IST`.
                             )                                 // Returns a `ZonedDateTime`.
                             .toInstant()                      // Adjust from zone to UTC. Returns a `Instant` object, always in UTC by definition.
-            ) ;
+            );
 
     static final DateTimeFormatter DATE_TIME_FORMATTER = new DateTimeFormatterBuilder()
             .appendPattern("yyyy.MM.dd HH:mm:ss")
