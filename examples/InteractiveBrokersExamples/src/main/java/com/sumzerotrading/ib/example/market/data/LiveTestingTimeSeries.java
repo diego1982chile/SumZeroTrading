@@ -37,6 +37,10 @@ import com.sumzerotrading.realtime.bar.RealtimeBarRequest;
 import org.ta4j.core.*;
 import org.ta4j.core.Strategy;
 import org.ta4j.core.analysis.CashFlow;
+import org.ta4j.core.analysis.criteria.AverageProfitableTradesCriterion;
+import org.ta4j.core.analysis.criteria.RewardRiskRatioCriterion;
+import org.ta4j.core.analysis.criteria.TotalProfitCriterion;
+import org.ta4j.core.analysis.criteria.VersusBuyAndHoldCriterion;
 import ta4jexamples.loaders.CsvTicksLoader;
 import ta4jexamples.research.MultipleStrategy;
 import ta4jexamples.strategies.*;
@@ -75,6 +79,7 @@ public class LiveTestingTimeSeries {
     static CurrencyTicker TICKER;
     static InteractiveBrokersClientInterface IB_CLIENT;
     static int AMOUNT;
+    static int MAX_BAR_COUNT = 240;
 
     static PeriodManager periodManager = (PeriodManager) ServiceLocator.getInstance().getService(PeriodManager.class);
 
@@ -112,8 +117,8 @@ public class LiveTestingTimeSeries {
         try {
             //CLIENT_ID = ThreadLocalRandom.current().nextInt(1, 1000000 + 1);
             CLIENT_ID = 0;
-            //ibClient = InteractiveBrokersClient.getInstance("localhost", IB_PORT, CLIENT_ID);
-            IB_CLIENT = InteractiveBrokersClient.getInstance("localhost", TWS_PORT, CLIENT_ID);
+            IB_CLIENT = InteractiveBrokersClient.getInstance("localhost", IB_PORT, CLIENT_ID);
+            //IB_CLIENT = InteractiveBrokersClient.getInstance("localhost", TWS_PORT, CLIENT_ID);
             IB_CLIENT.connect();
 
             TICKER = new CurrencyTicker();
@@ -124,6 +129,19 @@ public class LiveTestingTimeSeries {
             TICKER.setContractMultiplier(BigDecimal.ONE);
 
             AMOUNT = 20000; //2mLote = 2*100*100 = 200(EUR/USD)*LVG
+
+            // Si el timeframe es de 1M se usara una serie movil de 1 SEMANA = 60 x 24 x 5 = 7200 (bars)
+            if(BAR_SIZE_UNIT == BarData.LengthUnit.MINUTE) {
+                MAX_BAR_COUNT = 7200;
+            }
+            // Si el timeframe es de 1H se usara una serie movil de 1 MES = 24 x 5 x 4 = 480 (bars)
+            if(BAR_SIZE_UNIT == BarData.LengthUnit.HOUR) {
+                MAX_BAR_COUNT = 480;
+            }
+            // Si el timeframe es de 1D se usara una serie movil de 1 AÑO = 20 x 12 = 240 (bars)
+            if(BAR_SIZE_UNIT == BarData.LengthUnit.DAY) {
+                MAX_BAR_COUNT = 240;
+            }
 
             /*
             ARCA, GLOBEX, NYMEX, CBOE, ECBOT, NYBOT, CFE, NYSE_LIFFE, IDEALPRO, PSE, INTERACTIVE_BROKERS_SMART, NASDAQ,
@@ -212,13 +230,67 @@ public class LiveTestingTimeSeries {
         return live;
     }
 
-    public static final void main(String[] args) throws InterruptedException {
+    public static void generateLogs(TimeSeries series, TradingRecord tradingRecord) {
+
+        String fileName = "resultados_" + LocalDate.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) + ".txt";
+
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
+
+            // Analysis
+            writer.write("Number of trades for our strategy: " + tradingRecord.getTradeCount());
+            writer.newLine();
+            writer.newLine();
+
+            // Getting the profitable trades ratio
+            AnalysisCriterion profitTradesRatio = new AverageProfitableTradesCriterion();
+            writer.write("Profitable trades ratio: " + profitTradesRatio.calculate(series, tradingRecord));
+            writer.newLine();
+            writer.newLine();
+
+            // Getting the reward-risk ratio
+            AnalysisCriterion rewardRiskRatio = new RewardRiskRatioCriterion();
+            writer.write("Reward-risk ratio: " + rewardRiskRatio.calculate(series, tradingRecord));
+            writer.newLine();
+            writer.newLine();
+
+            // Total profit of our strategy
+            // vs total profit of a buy-and-hold strategy
+            AnalysisCriterion vsBuyAndHold = new VersusBuyAndHoldCriterion(new TotalProfitCriterion());
+            writer.write("Our profit vs buy-and-hold profit: " + vsBuyAndHold.calculate(series, tradingRecord));
+            writer.newLine();
+            writer.newLine();
+
+            for (int i = 0; i < tradingRecord.getTrades().size(); ++i) {
+                writer.write("Trade["+ i +"]: " + tradingRecord.getTrades().get(i).toString());
+                writer.newLine();
+            }
+
+            writer.newLine();
+
+            // Getting the cash flow of the resulting trades
+            CashFlow cashFlow = new CashFlow(series, tradingRecord);
+
+            for (int i = 0; i < cashFlow.getSize(); ++i) {
+                writer.write("CashFlow["+ i +"]: " + cashFlow.getValue(i));
+                writer.newLine();
+            }
+
+            writer.flush();
+            writer.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public static void main(String[] args) throws InterruptedException {
 
 
         System.out.println("********************** Initialization **********************");
         start();
         // Getting the time series
-        TimeSeries series = initMovingTimeSeries(240);
+        TimeSeries series = initMovingTimeSeries(MAX_BAR_COUNT);
 
         // Initializing the trading history
         TradingRecord tradingRecord = new BaseTradingRecord();
@@ -226,53 +298,66 @@ public class LiveTestingTimeSeries {
 
         RealtimeBarRequest request = new RealtimeBarRequest(IB_CLIENT.getClientId(), TICKER, BAR_SIZE, BAR_SIZE_UNIT, DATA_TO_REQUEST);
 
-        int cont = 1;
+        List<Object> barCounter = new ArrayList<>();
         List<Object> flag = new ArrayList<>();
         // Building the trading strategy
         List<Strategy> strategyBuffer = new ArrayList<>();
+        ZoneId z = ZoneId.of( "America/Santiago" );
 
         IB_CLIENT.subscribeRealtimeBar(request, (int requestId, Ticker _ticker, BarData bar) -> {
+
+            //Incrementar el contador de bars
+            barCounter.add(true);
+
+            //Si han transcurrido MAX_BAR_COUNT bars, generar log con resultados periódicos
+            if(barCounter.size() == MAX_BAR_COUNT) {
+                barCounter.clear();
+                generateLogs(series, tradingRecord);
+            }
 
             Strategy strategy = null;
 
             System.out.println(bar.toString());
             LAST_BAR_CLOSE_PRICE = Decimal.valueOf(bar.getClose());
             Bar newBar = toBar(bar);
-            System.out.println("------------------------------------------------------\n" + "Bar "+cont+" added, close price = " + newBar.getClosePrice().doubleValue());
-            series.addBar(newBar);
+            try {
+                series.addBar(newBar);
+                System.out.println("\nBar "+barCounter.size()+" added, close price = " + newBar.getClosePrice().doubleValue());
+            }
+            catch (Exception e) {
+                e.printStackTrace();
+            }
 
-            ZoneId z = ZoneId.of( "America/Santiago" );
             LocalDateTime today = LocalDateTime.now( z );
 
             //TODO: Actualizar periodicamente la estrategia. Ej: Todos los viernes
             if(today.getDayOfWeek().equals(DayOfWeek.FRIDAY) && flag.isEmpty()) {
-
-                try {
-                    periodManager.generateOptimizations(series);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+                flag.add(true);
+                periodManager.generateOptimizations(series);
             }
 
-            //TODO: Recuperar la estrategia actualizada. Ej: Todos los lunes
-            if(today.getDayOfWeek().equals(DayOfWeek.MONDAY) || strategyBuffer.isEmpty()) {
+            if(!today.getDayOfWeek().equals(DayOfWeek.FRIDAY)) {
 
-                try {
+                Period period;
+                List<org.ta4j.core.Strategy> strategies;
+                MultipleStrategy multipleStrategy = null;
+
+                //TODO: Recuperar la estrategia actualizada. Ej: Todos los lunes
+                if(today.getDayOfWeek().equals(DayOfWeek.MONDAY)) {
                     flag.clear();
-                    Period period = periodManager.getLast(1).get(0);
-                    List<org.ta4j.core.Strategy> strategies = period.extractStrategy(period);
-                    MultipleStrategy multipleStrategy = new MultipleStrategy(strategies);
-                    if(strategyBuffer.isEmpty()) {
-                        strategyBuffer.add(multipleStrategy.buildStrategy(series));
-                    }
-                    else {
-                        strategyBuffer.set(0,multipleStrategy.buildStrategy(series));
-                    }
-                    strategy = strategyBuffer.get(0);
-                } catch (Exception e) {
-                    e.printStackTrace();
+                    strategyBuffer.clear();
                 }
+
+                if(strategyBuffer.isEmpty()) {
+                    period = periodManager.getLast(1).get(0);
+                    strategies = period.extractStrategy(period);
+                    multipleStrategy = new MultipleStrategy(strategies);
+                    strategyBuffer.add(multipleStrategy.buildStrategy(series));
+                }
+
             }
+
+            strategy = strategyBuffer.get(0);
 
             int endIndex = series.getEndIndex();
 
@@ -306,23 +391,8 @@ public class LiveTestingTimeSeries {
                 }
             }
 
-            //cont++;
         });
 
-
-        // Getting the cash flow of the resulting trades
-        /*
-        CashFlow cashFlow = new CashFlow(series, tradingRecord);
-
-        for (int i = 0; i < 459; ++i) {
-            try {
-                System.out.println("CashFlow["+ i +"]: " + cashFlow.getValue(i));
-            }
-            catch (IndexOutOfBoundsException e) {
-                return;
-            }
-        }
-        */
     }
 
     private static Bar toBar(BarData barData) {

@@ -29,5 +29,5 @@ import com.sumzerotrading.data.Ticker;
 public interface RealtimeBarListener {
     
     
-    public void realtimeBarReceived( int requestId, Ticker ticker, BarData bar );
+    public void realtimeBarReceived( int requestId, Ticker ticker, BarData bar ) throws Exception;
 }
