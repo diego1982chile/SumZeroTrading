@@ -1,0 +1,20 @@
+dic 20, 2019 7:27:31 PM com.sumzerotrading.ib.example.market.data.LiveTestingTimeSeries start
+INFORMACIÓN: Parametros globales: {IB_PORT = '4002', TWS_PORT = 7497, CLIENT_ID = 0, AMOUNT = 20000, MAX_BAR_COUNT = 480, START_EUROPEAN_SESSION = 4, END_EUROPEAN_SESSION = 12, START_AMERICAN_SESSION = 9, END_AMERICAN_SESSION = 17, DURATION = 1, DURATION_UNIT = 'MONTH', BAR_SIZE = 1, BAR_SIZE_UNIT = 'HOUR', DATA_TO_REQUEST = 'MIDPOINT', END_DATE = 'Sat Nov 30 00:00:00 CLST 2019'}
+dic 20, 2019 7:27:31 PM com.sumzerotrading.ib.example.market.data.LiveTestingTimeSeries start
+INFORMACIÓN: Conectando con Client ID: 0 por puerto: 4002
+dic 20, 2019 7:27:32 PM com.sumzerotrading.ib.example.market.data.LiveTestingTimeSeries start
+INFORMACIÓN: Conexion exitosa
+dic 20, 2019 7:27:32 PM com.sumzerotrading.ib.example.market.data.LiveTestingTimeSeries start
+INFORMACIÓN: Inicializando Ticker con parametros: {Exchange = 'Exchange{exchangeName=IDEALPRO}', Symbol = 'EUR', Currency = 'USD', ContractMultiplier = 1}
+dic 20, 2019 7:27:32 PM com.sumzerotrading.ib.example.market.data.LiveTestingTimeSeries initMovingTimeSeries
+INFORMACIÓN: Inicializando Serie de Tiempo Movil
+dic 20, 2019 7:27:32 PM com.sumzerotrading.ib.example.market.data.LiveTestingTimeSeries initMovingTimeSeries
+INFORMACIÓN: Obteniendo data historica con parametros: {END_DATE = 'Sat Nov 30 00:00:00 CLST 2019', DURATION = 1, DURATION_UNIT = 'MONTH', BAR_SIZE = 1, BAR_SIZE_UNIT = 'HOUR', DATA_TO_REQUEST = 'MIDPOINT'}
+dic 20, 2019 7:27:35 PM com.sumzerotrading.ib.example.market.data.LiveTestingTimeSeries initMovingTimeSeries
+INFORMACIÓN: Registros recuperados: 528
+dic 20, 2019 7:27:35 PM com.sumzerotrading.ib.example.market.data.LiveTestingTimeSeries initMovingTimeSeries
+INFORMACIÓN: Truncando Serie de Tiempo Movil MAX_BAR_COUNT: 480
+dic 20, 2019 7:27:35 PM com.sumzerotrading.ib.example.market.data.LiveTestingTimeSeries main
+INFORMACIÓN: Inicializando Solicitud de Barras en Tiempo Real con parametros: {BAR_SIZE = 1, BAR_SIZE_UNIT: 'HOUR', DATA_TO_REQUEST = MIDPOINT}
+dic 20, 2019 7:27:35 PM com.sumzerotrading.ib.example.market.data.LiveTestingTimeSeries main
+INFORMACIÓN: Suscribiendo solicitud...

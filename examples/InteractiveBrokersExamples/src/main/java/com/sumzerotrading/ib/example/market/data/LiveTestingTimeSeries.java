@@ -60,7 +60,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
-import java.util.logging.Logger;
+import java.util.logging.*;
 
 /**
  * This class is an example of a dummy trading bot using ta4j.
@@ -75,23 +75,29 @@ public class LiveTestingTimeSeries {
 
     static final int IB_PORT = 4002;
     static final int TWS_PORT = 7497;
-    static int CLIENT_ID;
+    static int CLIENT_ID = 0;
     static CurrencyTicker TICKER;
     static InteractiveBrokersClientInterface IB_CLIENT;
-    static int AMOUNT;
+    static int AMOUNT = 20000;
     static int MAX_BAR_COUNT = 240;
+
+    static final int START_EUROPEAN_SESSION = 4;
+    static final int END_EUROPEAN_SESSION = 12;
+
+    static final int START_AMERICAN_SESSION = 9;
+    static final int END_AMERICAN_SESSION = 17;
 
     static PeriodManager periodManager = (PeriodManager) ServiceLocator.getInstance().getService(PeriodManager.class);
 
     static final int DURATION = 1;
-    static final BarData.LengthUnit DURATION_UNIT = BarData.LengthUnit.WEEK;
+    static final BarData.LengthUnit DURATION_UNIT = BarData.LengthUnit.MONTH;
     static final int BAR_SIZE = 1;
-    static final BarData.LengthUnit BAR_SIZE_UNIT = BarData.LengthUnit.MINUTE;
+    static final BarData.LengthUnit BAR_SIZE_UNIT = BarData.LengthUnit.HOUR;
     static final IHistoricalDataProvider.ShowProperty DATA_TO_REQUEST =  IHistoricalDataProvider.ShowProperty.MIDPOINT;
     static final Date END_DATE =  Date                        // Terrible old legacy class, avoid using. Represents a moment in UTC.
             .from(                                // New conversion method added to old classes for converting between legacy classes and modern classes.
                     LocalDate                         // Represents a date-only value, without time-of-day and without time zone.
-                            .of( 2019 , 05 , 30 )              // Specify year-month-day. Notice sane counting, unlike legacy classes: 2014 means year 2014, 1-12 for Jan-Dec.
+                            .of( 2019 , 11 , 30 )              // Specify year-month-day. Notice sane counting, unlike legacy classes: 2014 means year 2014, 1-12 for Jan-Dec.
                             .atStartOfDay(                    // Let java.time determine first moment of the day. May *not* start at 00:00:00 because of anomalies such as Daylight Saving Time (DST).
                                     ZoneId.systemDefault()   // Specify time zone as `Continent/Region`, never the 3-4 letter pseudo-zones like `PST`, `EST`, or `IST`.
                             )                                 // Returns a `ZonedDateTime`.
@@ -109,6 +115,9 @@ public class LiveTestingTimeSeries {
             .appendPattern("yyyy.MM.dd")
             .toFormatter();
 
+    static private final Logger logger = Logger.getLogger(LiveTestingTimeSeries.class.getName());
+    static private FileHandler fh;
+
     /**
      * Builds a moving time series (i.e. keeping only the maxBarCount last bars)
      */
@@ -116,19 +125,6 @@ public class LiveTestingTimeSeries {
 
         try {
             //CLIENT_ID = ThreadLocalRandom.current().nextInt(1, 1000000 + 1);
-            CLIENT_ID = 0;
-            IB_CLIENT = InteractiveBrokersClient.getInstance("localhost", IB_PORT, CLIENT_ID);
-            //IB_CLIENT = InteractiveBrokersClient.getInstance("localhost", TWS_PORT, CLIENT_ID);
-            IB_CLIENT.connect();
-
-            TICKER = new CurrencyTicker();
-            TICKER.setExchange(Exchange.IDEALPRO);
-            //ticker.setExchange(Exchange.IDEAL);
-            TICKER.setSymbol("EUR");
-            TICKER.setCurrency("USD");
-            TICKER.setContractMultiplier(BigDecimal.ONE);
-
-            AMOUNT = 20000; //2mLote = 2*100*100 = 200(EUR/USD)*LVG
 
             // Si el timeframe es de 1M se usara una serie movil de 1 SEMANA = 60 x 24 x 5 = 7200 (bars)
             if(BAR_SIZE_UNIT == BarData.LengthUnit.MINUTE) {
@@ -143,17 +139,41 @@ public class LiveTestingTimeSeries {
                 MAX_BAR_COUNT = 240;
             }
 
+            logger.log(Level.INFO, "Parametros globales: {IB_PORT = '" + IB_PORT + "', TWS_PORT = " + TWS_PORT +
+                    ", CLIENT_ID = " + CLIENT_ID + ", AMOUNT = " + AMOUNT + ", MAX_BAR_COUNT = " + MAX_BAR_COUNT +
+                    ", START_EUROPEAN_SESSION = " + START_EUROPEAN_SESSION + ", END_EUROPEAN_SESSION = " + END_EUROPEAN_SESSION +
+                    ", START_AMERICAN_SESSION = " + START_AMERICAN_SESSION + ", END_AMERICAN_SESSION = " + END_AMERICAN_SESSION +
+                    ", DURATION = " + DURATION + ", DURATION_UNIT = '" + DURATION_UNIT + "', BAR_SIZE = " + BAR_SIZE +
+                    ", BAR_SIZE_UNIT = '" + BAR_SIZE_UNIT + "', DATA_TO_REQUEST = '" + DATA_TO_REQUEST + "', END_DATE = '" + END_DATE + "'}");
+
+            logger.log(Level.INFO, "Conectando con Client ID: " + CLIENT_ID + " por puerto: " +  IB_PORT);
+
+            IB_CLIENT = InteractiveBrokersClient.getInstance("localhost", IB_PORT, CLIENT_ID);
+            //IB_CLIENT = InteractiveBrokersClient.getInstance("localhost", TWS_PORT, CLIENT_ID);
+            IB_CLIENT.connect();
+
+            logger.log(Level.INFO, "Conexion exitosa");
+
+            logger.log(Level.INFO, "Inicializando Ticker con parametros: {Exchange = '" + Exchange.IDEALPRO + "', Symbol = 'EUR', Currency = 'USD', ContractMultiplier = " + BigDecimal.ONE + "}");
+
+            TICKER = new CurrencyTicker();
+            TICKER.setExchange(Exchange.IDEALPRO);
+            //ticker.setExchange(Exchange.IDEAL);
+            TICKER.setSymbol("EUR");
+            TICKER.setCurrency("USD");
+            TICKER.setContractMultiplier(BigDecimal.ONE);
+
+            AMOUNT = 20000; //2mLote = 2*100*100 = 200(EUR/USD)*LVG
+
             /*
             ARCA, GLOBEX, NYMEX, CBOE, ECBOT, NYBOT, CFE, NYSE_LIFFE, IDEALPRO, PSE, INTERACTIVE_BROKERS_SMART, NASDAQ,
             TSEJ, SEHKNTL, SEHK, HKFE, OSE, SGX, BOX, ACE, AEB, AMEX, ARCA, ASX, BELFOX, BRUT, BTRADE, BVME, CBOE, DTB,
             EOE, GLOBEX, HKFE, IBIS, IDEAL, IDEM, INSTINET, ISE, ISLAND, LIFFE, LSE, MATIF, MEFFRV, MONEP, MXT, NASDAQ,
             NYSE, OMLX, OMS, PHLX, PSE, RDBK, SFB, SNFE, SOFFEX, VIRTX, VWAP, ZSE
             */
-
-            live = new BaseTimeSeries();
         }
         catch(Exception e) {
-
+            logger.log(Level.SEVERE, e.getMessage());
         }
     }
 
@@ -162,17 +182,27 @@ public class LiveTestingTimeSeries {
      * @param maxBarCount the number of bars to keep in the time series (at maximum)
      * @return a moving time series
      */
-    private static TimeSeries initMovingTimeSeries(int maxBarCount) {
+    private static TimeSeries initMovingTimeSeries(int maxBarCount) throws Exception {
+
+        logger.log(Level.INFO, "Inicializando Serie de Tiempo Movil");
 
         List<BarData> historicalData = new ArrayList<>();
 
+        live = new BaseTimeSeries();
+
         //List<BarData> historicalData = ibClient.requestHistoricalData(ticker, DURATION, DURATION_UNIT, BAR_SIZE, BAR_SIZE_UNIT, DATA_TO_REQUEST);
+        logger.log(Level.INFO, "Obteniendo data historica con parametros: {END_DATE = '" + END_DATE + "'" +
+                               ", DURATION = " + DURATION + ", DURATION_UNIT = '" + DURATION_UNIT + "', BAR_SIZE = " + BAR_SIZE +
+                               ", BAR_SIZE_UNIT = '" + BAR_SIZE_UNIT +"', DATA_TO_REQUEST = '" + DATA_TO_REQUEST +"'}");
 
         try {
             historicalData = IB_CLIENT.requestHistoricalData(TICKER, END_DATE, DURATION, DURATION_UNIT, BAR_SIZE, BAR_SIZE_UNIT, DATA_TO_REQUEST, false);
         } catch (IOException e) {
             e.printStackTrace();
+            throw e;
         }
+
+        logger.log(Level.INFO, "Registros recuperados: " + historicalData.size());
 
         for (BarData barData : historicalData) {
 
@@ -184,7 +214,8 @@ public class LiveTestingTimeSeries {
             }
         }
 
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("2019_M.csv"))) {
+        /*
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("2019_NOV_H.csv"))) {
 
             writer.write("DATE;TIME;OPEN;HIGH;LOW;CLOSE;VOLUME");
             writer.flush();
@@ -214,18 +245,26 @@ public class LiveTestingTimeSeries {
             }
             writer.close();
 
+
+            //periodManager.generateOptimizations(live);
+
             //TimeSeries series = CsvTradesLoader.loadBitstampSeries();
             //history = CsvTicksLoader.load("EURUSD_Daily_201701020000_201712290000.csv");
 
             System.out.print("Initial bar count: " + live.getBarCount());
             // Limitating the number of bars to maxBarCount
-            live.setMaximumBarCount(maxBarCount);
             LAST_BAR_CLOSE_PRICE = live.getBar(live.getEndIndex()).getClosePrice();
             System.out.println(" (limited to " + maxBarCount + "), close price = " + LAST_BAR_CLOSE_PRICE);
 
         } catch (IOException e) {
             e.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+        */
+        logger.log(Level.INFO, "Truncando Serie de Tiempo Movil MAX_BAR_COUNT: " + MAX_BAR_COUNT);
+
+        live.setMaximumBarCount(maxBarCount);
 
         return live;
     }
@@ -288,13 +327,26 @@ public class LiveTestingTimeSeries {
 
 
         System.out.println("********************** Initialization **********************");
+        ZoneId z = ZoneId.of( "America/Santiago" );
+        LocalDateTime today = LocalDateTime.now( z );
+        addFileHandler(String.valueOf(today.getDayOfMonth()) + "-" + String.valueOf(today.getMonth()) + "-" + String.valueOf(today.getYear()) + ".txt");
         start();
+        TimeSeries series;
         // Getting the time series
-        TimeSeries series = initMovingTimeSeries(MAX_BAR_COUNT);
+        try {
+            series = initMovingTimeSeries(MAX_BAR_COUNT);
+        }
+        catch (Exception e) {
+            logger.log(Level.SEVERE, e.getMessage());
+            return;
+        }
 
         // Initializing the trading history
         TradingRecord tradingRecord = new BaseTradingRecord();
         System.out.println("************************************************************");
+
+        logger.log(Level.INFO, "Inicializando Solicitud de Barras en Tiempo Real con parametros: {BAR_SIZE = " + BAR_SIZE +
+                               ", BAR_SIZE_UNIT: '" + BAR_SIZE_UNIT + "', DATA_TO_REQUEST = " + DATA_TO_REQUEST + "}");
 
         RealtimeBarRequest request = new RealtimeBarRequest(IB_CLIENT.getClientId(), TICKER, BAR_SIZE, BAR_SIZE_UNIT, DATA_TO_REQUEST);
 
@@ -302,37 +354,39 @@ public class LiveTestingTimeSeries {
         List<Object> flag = new ArrayList<>();
         // Building the trading strategy
         List<Strategy> strategyBuffer = new ArrayList<>();
-        ZoneId z = ZoneId.of( "America/Santiago" );
+
+        logger.log(Level.INFO, "Suscribiendo solicitud...");
 
         IB_CLIENT.subscribeRealtimeBar(request, (int requestId, Ticker _ticker, BarData bar) -> {
+
+            logger.log(Level.INFO, "Recuperando barra: " + bar.toString());
+            LAST_BAR_CLOSE_PRICE = Decimal.valueOf(bar.getClose());
+            Bar newBar = toBar(bar);
+
+            // Agregar nuevo bar a series
+            try {
+                series.addBar(newBar);
+                //System.out.println("\nBar "+barCounter.size()+" added, close price = " + newBar.getClosePrice().doubleValue());
+            }
+            catch (Exception e) {
+                e.printStackTrace();
+            }
 
             //Incrementar el contador de bars
             barCounter.add(true);
 
             //Si han transcurrido MAX_BAR_COUNT bars, generar log con resultados periódicos
             if(barCounter.size() == MAX_BAR_COUNT) {
+                logger.log(Level.INFO, "Se han recuperado: " + MAX_BAR_COUNT + " barras. Generando estadisticas para la unidad de duracion " + DURATION_UNIT + " mas reciente");
                 barCounter.clear();
                 generateLogs(series, tradingRecord);
             }
 
-            Strategy strategy = null;
-
-            System.out.println(bar.toString());
-            LAST_BAR_CLOSE_PRICE = Decimal.valueOf(bar.getClose());
-            Bar newBar = toBar(bar);
-            try {
-                series.addBar(newBar);
-                System.out.println("\nBar "+barCounter.size()+" added, close price = " + newBar.getClosePrice().doubleValue());
-            }
-            catch (Exception e) {
-                e.printStackTrace();
-            }
-
-            LocalDateTime today = LocalDateTime.now( z );
-
             //TODO: Actualizar periodicamente la estrategia. Ej: Todos los viernes
             if(today.getDayOfWeek().equals(DayOfWeek.FRIDAY) && flag.isEmpty()) {
+                logger.log(Level.INFO, "Generando nuevas optimizaciones para estrategia de inversion...");
                 flag.add(true);
+                // Genera un nuevo period (optimizaciones)
                 periodManager.generateOptimizations(series);
             }
 
@@ -349,7 +403,10 @@ public class LiveTestingTimeSeries {
                 }
 
                 if(strategyBuffer.isEmpty()) {
+                    // Se recupera el ultimo period con las optimizaciones
                     period = periodManager.getLast(1).get(0);
+                    logger.log(Level.INFO, "Recuperando ultima estrategia de inversion: " + period.toString());
+                    // Se extraen las estrategias del period
                     strategies = period.extractStrategy(period);
                     multipleStrategy = new MultipleStrategy(strategies);
                     strategyBuffer.add(multipleStrategy.buildStrategy(series));
@@ -357,38 +414,55 @@ public class LiveTestingTimeSeries {
 
             }
 
-            strategy = strategyBuffer.get(0);
+            if(strategyBuffer.size() > 1) {
+                logger.log(Level.SEVERE, "El buffer de estrategias solo puede contener 1 estrategia!!. Contacte al administrador");
+                return;
+            }
 
-            int endIndex = series.getEndIndex();
+            logger.log(Level.INFO, "today.getHour() = " + String.valueOf(today.getHour()));
 
-            if (strategy.shouldEnter(endIndex)) {
-                // Our strategy should enter
-                System.out.println("Strategy should ENTER on " + endIndex);
-                boolean entered = tradingRecord.enter(endIndex, newBar.getClosePrice(), Decimal.TEN);
-                if (entered) {
-                    Order entry = tradingRecord.getLastEntry();
-                    // Entrar en compra en IB
-                    String orderId = IB_CLIENT.getNextOrderId();
-                    TradeOrder order = new TradeOrder(orderId, TICKER, AMOUNT, TradeDirection.BUY);
-                    order.setType(TradeOrder.Type.MARKET);
-                    IB_CLIENT.placeOrder(order);
-                    //////////////////////////
-                    System.out.println("Entered on " + entry.getIndex() + " (price=" + entry.getPrice().doubleValue() + ", amount=" + entry.getAmount().doubleValue() + ")");
+            // TODO: Solo operar en las sesiones de mercado adecuadas: EUROPEA / AMERICANA
+            if(today.getHour() >= START_EUROPEAN_SESSION && today.getHour() <= END_EUROPEAN_SESSION) {
+                logger.log(Level.INFO, "Operando en el mercado...");
+
+                int endIndex = series.getEndIndex();
+
+                if (strategyBuffer.get(0).shouldEnter(endIndex)) {
+                    // Our strategy should enter
+                    //System.out.println("Strategy should ENTER on " + endIndex);
+                    logger.log(Level.INFO, "La estrategia deberia entrar en " + endIndex);
+                    boolean entered = tradingRecord.enter(endIndex, newBar.getClosePrice(), Decimal.TEN);
+                    if (entered) {
+                        Order entry = tradingRecord.getLastEntry();
+                        // Entrar en compra en IB
+                        String orderId = IB_CLIENT.getNextOrderId();
+                        TradeOrder order = new TradeOrder(orderId, TICKER, AMOUNT, TradeDirection.BUY);
+                        order.setType(TradeOrder.Type.MARKET);
+                        logger.log(Level.INFO, "La estrategia ENTRARA en COMPRA con parametros: {ORDER_ID = " + orderId +
+                                ", PRICE = " + entry.getPrice().doubleValue() + ", TYPE = " + TradeOrder.Type.MARKET + ", AMOUNT = " + AMOUNT);
+                        IB_CLIENT.placeOrder(order);
+                        //////////////////////////
+                        //System.out.println("Entered on " + entry.getIndex() + " (price=" + entry.getPrice().doubleValue() + ", amount=" + entry.getAmount().doubleValue() + ")");
+                    }
+                } else if (strategyBuffer.get(0).shouldExit(endIndex)) {
+                    // Our strategy should exit
+                    //System.out.println("Strategy should EXIT on " + endIndex);
+                    logger.log(Level.INFO, "La estrategia deberia salir en " + endIndex);
+                    boolean exited = tradingRecord.exit(endIndex, newBar.getClosePrice(), Decimal.TEN);
+                    if (exited) {
+                        Order exit = tradingRecord.getLastExit();
+                        // Entrar en venta en IB
+                        String orderId = IB_CLIENT.getNextOrderId();
+                        TradeOrder order = new TradeOrder(orderId, TICKER, AMOUNT, TradeDirection.SELL);
+                        order.setType(TradeOrder.Type.MARKET);
+                        logger.log(Level.INFO, "La estrategia SALDRA en VENTA con parametros: {ORDER_ID = " + orderId +
+                                ", PRICE = " + exit.getPrice().doubleValue() + ", TYPE = " + TradeOrder.Type.MARKET + ", AMOUNT = " + AMOUNT);
+                        IB_CLIENT.placeOrder(order);
+                        //////////////////////////
+                        //System.out.println("Exited on " + exit.getIndex() + " (PRICE=" + exit.getPrice().doubleValue() + ", amount=" + exit.getAmount().doubleValue() + ")");
+                    }
                 }
-            } else if (strategy.shouldExit(endIndex)) {
-                // Our strategy should exit
-                System.out.println("Strategy should EXIT on " + endIndex);
-                boolean exited = tradingRecord.exit(endIndex, newBar.getClosePrice(), Decimal.TEN);
-                if (exited) {
-                    Order exit = tradingRecord.getLastExit();
-                    // Entrar en venta en IB
-                    String orderId = IB_CLIENT.getNextOrderId();
-                    TradeOrder order = new TradeOrder(orderId, TICKER, AMOUNT, TradeDirection.SELL);
-                    order.setType(TradeOrder.Type.MARKET);
-                    IB_CLIENT.placeOrder(order);
-                    //////////////////////////
-                    System.out.println("Exited on " + exit.getIndex() + " (price=" + exit.getPrice().doubleValue() + ", amount=" + exit.getAmount().doubleValue() + ")");
-                }
+
             }
 
         });
@@ -403,5 +477,23 @@ public class LiveTestingTimeSeries {
         double close = barData.getClose().doubleValue();
         double volume = barData.getVolume().doubleValue();
         return new BaseBar(time.atZone(ZoneId.of("America/Santiago")), open, high, low, close, volume);
+    }
+
+    private static void addFileHandler(String name) {
+
+        try {
+
+            // This block configure the logger with handler and formatter
+            fh = new FileHandler(name);
+            logger.addHandler(fh);
+            SimpleFormatter formatter = new SimpleFormatter();
+            fh.setFormatter(formatter);
+
+
+        } catch (SecurityException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
